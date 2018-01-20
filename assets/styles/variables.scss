@@ -6,3 +6,20 @@ $spacing-half: 15px;
 $spacing-one-third: 10px;
 
 $font-large: 100px;
+$font-med: 70px;
+
+@mixin breakpoint($point) {
+  @if $point == 3 {
+    @media (max-width: 1008px) { @content; }
+  }
+  @else if $point == 2 {
+    @media (max-width: 850px) { @content; }
+  }
+  @else if $point == 1 {
+    @media (max-width: 570px)  { @content; }
+  }
+  @else if $point == 0 {
+    @media (max-width: 380px)  { @content; }
+  }
+}
+

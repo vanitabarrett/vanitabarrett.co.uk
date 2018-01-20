@@ -8,9 +8,11 @@ body {
   display: block;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translateY(-60%);
   text-align: center;
+  width: 100%;
+  padding: $spacing-one-third;
+  box-sizing: border-box;
 
   h1, h2 {
     margin: 0 0 $spacing-half 0;
@@ -25,6 +27,10 @@ body {
 .temp-container__title {
   font-family: 'Arizonia', cursive;
   font-size: $font-large;
+
+  @include breakpoint(1) {
+    font-size: $font-med;
+  }
 }
 
 .temp-container__icon {
