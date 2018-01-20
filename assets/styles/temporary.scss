@@ -1,0 +1,37 @@
+body {
+  background-color: $red;
+  color: $white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.temp-container {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: center;
+
+  h1, h2 {
+    margin: 0 0 $spacing-half 0;
+    font-weight: 200;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.temp-container__title {
+  font-family: 'Arizonia', cursive;
+  font-size: $font-large;
+}
+
+.temp-container__icon {
+  width: 50px;
+  margin: 0 $spacing-one-third;
+}
+
+.temp-container__social {
+  margin-top: $spacing-full;
+}
