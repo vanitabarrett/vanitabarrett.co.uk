@@ -1,0 +1,23 @@
+{
+  "name": "vanitabarrett.co.uk",
+  "version": "1.0.0",
+  "description": "Vanita Barrett website",
+  "main": "index.php",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-sass": "node-sass assets/styles/site.scss assets/styles/build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanitabarrett/vanitabarrett.co.uk.git"
+  },
+  "author": "Vanita Barrett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanitabarrett/vanitabarrett.co.uk/issues"
+  },
+  "homepage": "https://github.com/vanitabarrett/vanitabarrett.co.uk#readme"
+}
