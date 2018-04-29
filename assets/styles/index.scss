@@ -1,0 +1,31 @@
+.intro {
+    background-color: $red;
+    color: $white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+    p {
+        padding: 0;
+        line-height: 35px;
+        font-size: 20px;
+    }
+
+    a:hover {
+        border-bottom: 2px solid $white;
+    }
+
+    .intro-em {
+        font-size: $emphasis;
+        font-weight: 400;
+    }
+}
+
+.projects {
+    h1 {
+        margin-bottom: 5px;
+    }
+
+    img {
+        width: 40%;
+    }
+}
