@@ -1,0 +1,56 @@
+.breadcrumbs__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+
+    &__item {
+        display: inline-block;
+        text-decoration: none;
+        color: $black;
+        font-weight: bold;
+        font-size: $text-small;
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        &:before {
+            content: '>';
+            font-size: $text-small;
+            font-weight: bold;
+            color: $grey;
+        }
+
+        &:first-child:before {
+            display: none;
+        }
+
+        &:last-child span:before {
+            content: 'Current Page: ';
+        }
+    }
+}
+
+.project-info {
+    h1 a {
+        color: $black;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__technologies li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0 15px;
+    }
+}
+
+.project-image {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
