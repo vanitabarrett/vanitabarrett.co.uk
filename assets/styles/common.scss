@@ -22,7 +22,7 @@ h2 {
     margin: 0 auto;
 
     @include breakpoint(3) {
-        padding: 0 15px;
+        padding: 0 $spacing-half;
         box-sizing: border-box;
     }
 }
