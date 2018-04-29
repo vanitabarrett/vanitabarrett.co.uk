@@ -13,8 +13,7 @@
     <img src="assets/projects/latest-project.png" alt="A screenshot of the GOV.UK website homepage - my latest project." />
 
     <?php
-        $project_file = file_get_contents("data/projects.json");
-        $json_projects = json_decode($project_file, true);
+        $json_projects = projects();
 
         foreach ($json_projects as $projects) {
             foreach ($projects as $project) {

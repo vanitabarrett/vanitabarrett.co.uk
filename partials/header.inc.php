@@ -26,3 +26,7 @@
             </nav>
         </div>
     </header>
+
+    <?php
+        include 'helpers/json_helper.php';
+    ?>
