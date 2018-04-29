@@ -12,21 +12,21 @@
     <h1>Projects</h1>
     <img src="assets/projects/latest-project.png" alt="A screenshot of the GOV.UK website homepage - my latest project." />
 
-    <div class="projects__item">
-        <h2><a href="/project.php">GOV.UK</a></h2>
-        <p>Some kind of description should go here...</p>
-    </div>
+    <?php
+        $project_file = file_get_contents("data/projects.json");
+        $json_projects = json_decode($project_file, true);
 
-    <div class="projects__item">
-        <h2><a href="/">Sushi Lab</a></h2>
-        <p>Some kind of description should go here...</p>
-    </div>
-
-    <div class="projects__item">
-        <h2><a href="/">Castle Street Clinic</a></h2>
-        <p>Some kind of description should go here...</p>
-    </div>
-</div>
+        foreach ($json_projects as $projects) {
+            foreach ($projects as $project) {
+    ?>
+        <div class="projects__item">
+            <h2><a href="/project.php?<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
+            <p><?= $project['summary'] ?></p>
+        </div>
+    <?php
+            }
+        };
+    ?>
 
 <?php
     require_once('partials/footer.inc.php');
