@@ -27,7 +27,7 @@
             <a href="<?= $project['url'] ?>" rel="external">(<?= $project['url'] ?>)</a>
         <?php } end ?>
     </h1>
-    <img class="project-image" src="assets/projects/sushilab.png" alt="GOV.UK website homepage on a desktop computer, laptop and mobile device" />
+    <img class="project-image" src="assets/projects/<?= $project['image']['name'] ?>" alt="<?= $project['image']['alt_text'] ?>" />
 
     <p><?= $project['description'] ?></p>
 
