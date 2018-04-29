@@ -32,15 +32,17 @@
     <p><?= $project['description'] ?></p>
 
     <?php if (isset($project['skills'])) { ?>
-        <h2>Uses the following technologies:</h2>
-        <ul class="project-info__technologies">
-        <?php
-            $skills = explode(",", $project['skills']);
-            foreach ($skills as $skill) {
-        ?>
-            <li><?= $skill ?></li>
-        <?php } end ?>
-        </ul>
+        <div class="project-info__technologies">
+            <h2>Uses the following technologies:</h2>
+            <ul class="project-info__technologies-list">
+            <?php
+                $skills = explode(",", $project['skills']);
+                foreach ($skills as $skill) {
+            ?>
+                <li><?= $skill ?></li>
+            <?php } end ?>
+            </ul>
+        </div
     <?php } end ?>
 </div>
 

@@ -42,10 +42,18 @@
         }
     }
 
-    &__technologies li {
-        display: inline-block;
-        list-style-type: none;
-        margin: 5px 15px;
+    &__technologies {
+        margin-top: 30px;
+
+        h2 {
+            margin: 0;
+        }
+
+        &-list li {
+            display: inline-block;
+            list-style-type: none;
+            margin: 5px 15px;
+        }
     }
 }
 
