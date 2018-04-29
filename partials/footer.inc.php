@@ -22,6 +22,7 @@
                     </svg>
                 </a>
             </nav>
+            <p class="footer__email">contact@vanitabarrett.co.uk</p>
         </footer>
     </body>
 </html>
