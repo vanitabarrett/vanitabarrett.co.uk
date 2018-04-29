@@ -20,7 +20,8 @@
     ?>
         <div class="projects__item">
             <h2><a href="/project.php?<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
-            <p><?= $project['summary'] ?></p>
+            <p class="projects__item__job"><?= $project['job-role'] ?></p>
+            <p class="projects__item__summary"><?= $project['summary'] ?></p>
         </div>
     <?php
             }

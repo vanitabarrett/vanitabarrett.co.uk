@@ -30,14 +30,14 @@
     }
 
     .projects__item {
-        margin: 20px 0;
+        margin: 20px 0 30px 0;
 
         h2, p {
             margin: 0;
+            margin-bottom: 5px;
         }
 
         h2 {
-            margin-bottom: 5px;
             font-size: 20px;
 
             a {
@@ -48,6 +48,10 @@
                     border-bottom: 1px solid $red;
                 }
             }
+        }
+
+        .projects__item__job {
+            color: $grey;
         }
     }
 }
