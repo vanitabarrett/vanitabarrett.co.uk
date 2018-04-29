@@ -7,6 +7,8 @@ body {
         font-weight: 400;
         height: 60px;
         line-height: 60px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $red-highlight;
 
         .web-title--capital {
             font-family: 'Arizonia', serif;
