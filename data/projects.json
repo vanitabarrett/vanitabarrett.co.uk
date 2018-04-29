@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "name": "GOV.UK",
+            "job-role": "Frontend Developer",
+            "summary": "Making improvements to the frontend of GOV.UK, ensuring the site is accessible to all, and helping move towards a componentised system.",
+            "description": "On joining GOV.UK I worked within a team of Frontend Developers to consolidate the frontend patterns on GOV.UK and move towards a componentised system. Now working embedded in development teams, I am able to iterate further on these components, while also implementing new designs, making improvements based on user research, and ensuring the site is accessible to all.",
+            "url": "https://www.gov.uk",
+            "repo": "https://github.com/alphagov",
+            "skills": "HTML, SASS, JavaScript, Ruby on Rails, RSpec, MiniTest"
+        },
+        {
+            "name": "Moodjar: A secure cognitive behavioural therapy application",
+            "job-role": "Software Developer",
+            "summary": "Dissertation project exploring the use of technology to enhance communication within the health industry.",
+            "description": "Android and web application (with user and admin-facing interfaces) developed as a dissertation project for BSc Computing and Information Technology. Users were able to use the application as a mental health diary, which could be accessed by their chosen healthcare professional via a REST API querying a central encrypted database. This project was never made live, so a link cannot be provided.",
+            "skills": "Java, Android Fingerprint Authentication API, HTML, SASS, jQuery, CanvasJS, nodeJS, PostgreSQL, Data Encryption (AES-GCM)"
+        },
+        {
+            "name": "Castle Street Clinic",
+            "job-role": "Designer",
+            "summary": "Redesign of an outdated and cluttered interface. This osteopathy clinic website now has a cleaner, more modern design.",
+            "description": "Castle Street Clinic required a newly designed website to replace their outdated one, which users found difficult to navigate. This redesign splits the extensive information into clear separate sections, making sure  users are able to find the information relevant to them. The design also introduced strong brand identity throughout to match the company logo and colour scheme.."
+        },
+        {
+            "name": "SushiLab",
+            "job-role": "Web Designer and Developer",
+            "summary": "Fun and bold website for a new quick-service sushi restaurant in Guildford.",
+            "description": "Simply provided with a company logo and the request that it be 'bold and exciting', this project uses bold brand colours paired with a clean design. A keen eye for detail was used here, with animated SVG icons, social media feed, and custom styling of Google Maps. Developed alongside <a href=\"http://www.andrewmsmith.co.uk\" target=\"_blank\">Andy Smith</a>.",
+            "skills": "HTML5, SCSS, SVG Animations, jQuery, RequireJS, Mustache, PHP, MySQL"
+        },
+        {
+            "name": "Book Management Application",
+            "job-role": "Web Designer and Developer",
+            "summary": "A personal project for recording progress against the 1001 Books to Read Before You Die.",
+            "description": "This web application is a personal project, allowing me to record progress against the 1001 Books to Read Before You Die. The site uses a populated database of all 1001 books which can be marked as 'Yet to be Started', 'In Progress' and 'Completed'. Books outside this list can also be recorded - the homepage dashboard shows progress plotted for both list and non-list books.",
+            "skills": "HTML5, SCSS, jQuery, Flot Graphs for jQuery, MySQL, PHP"
+        }
+    ]
+}
