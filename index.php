@@ -8,6 +8,26 @@
     <p>You can find me on <a href="https://www.linkedin.com/in/vanitabarrett/" rel="external" class="intro-em">LinkedIn</a> and <a href="https://twitter.com/V_Barrett" rel="external" class="intro-em">Twitter</a>.</p>
 </div>
 
+<div class="projects max-width">
+    <h1>Projects</h1>
+    <img src="assets/projects/latest-project.png" alt="A screenshot of the GOV.UK website homepage - my latest project." />
+
+    <div class="projects__item">
+        <h2><a href="/project.php">GOV.UK</a></h2>
+        <p>Some kind of description should go here...</p>
+    </div>
+
+    <div class="projects__item">
+        <h2><a href="/">Sushi Lab</a></h2>
+        <p>Some kind of description should go here...</p>
+    </div>
+
+    <div class="projects__item">
+        <h2><a href="/">Castle Street Clinic</a></h2>
+        <p>Some kind of description should go here...</p>
+    </div>
+</div>
+
 <?php
     require_once('partials/footer.inc.php');
 ?>

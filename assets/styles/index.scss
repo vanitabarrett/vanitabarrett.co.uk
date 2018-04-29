@@ -28,4 +28,26 @@
     img {
         width: 40%;
     }
+
+    .projects__item {
+        margin: 20px 0;
+
+        h2, p {
+            margin: 0;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+            font-size: 20px;
+
+            a {
+                color: $red;
+                text-decoration: none;
+
+                &:hover {
+                    border-bottom: 1px solid $red;
+                }
+            }
+        }
+    }
 }
