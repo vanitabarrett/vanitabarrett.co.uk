@@ -24,7 +24,7 @@
 <div class="project-info max-width">
     <h1>Project: <?= $project['name'] ?>
         <?php if (isset($project['url'])) { ?>
-            <a href="http://www.sushilab.co.uk" rel="external">(<?= $project['url'] ?>)</a>
+            <a href="<?= $project['url'] ?>" rel="external">(<?= $project['url'] ?>)</a>
         <?php } end ?>
     </h1>
     <img class="project-image" src="assets/projects/sushilab.png" alt="GOV.UK website homepage on a desktop computer, laptop and mobile device" />
