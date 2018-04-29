@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    header {
+        background-color: $red;
+        font-weight: 400;
+        height: 60px;
+        line-height: 60px;
+
+        .web-title--capital {
+            font-family: 'Arizonia', serif;
+            font-size: 40px;
+        }
+
+        nav {
+            display: inline-block;
+            float: right;
+
+            a, a:visited {
+                font-size: 14px;
+                margin: 0 10px;
+                padding: 5px 0;
+                text-transform: uppercase;
+
+                &:hover {
+                    border-bottom: 2px solid $white;
+                }
+            }
+        }
+    }
+}

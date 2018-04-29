@@ -1,0 +1,23 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: $text;
+
+    header a, .intro a {
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+h1 {
+    font-size: $heading1;
+}
+
+h2 {
+    font-size: $heading2;
+}
+
+.max-width {
+    max-width: 1008px;
+    margin: 0 auto;
+}

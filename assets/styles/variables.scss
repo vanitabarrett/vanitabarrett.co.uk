@@ -1,12 +1,19 @@
+$black: #000000;
+$grey: #808080;
 $red: #6d1c31;
 $white: #ffffff;
+
+$font-xlarge: 100px;
+$font-large: 70px;
+$heading1: 30px;
+$emphasis: 25px;
+$heading2: 20px;
+$text: 18px;
+$text-small: 14px;
 
 $spacing-full: 30px;
 $spacing-half: 15px;
 $spacing-one-third: 10px;
-
-$font-large: 100px;
-$font-med: 70px;
 
 @mixin breakpoint($point) {
   @if $point == 3 {
@@ -22,4 +29,3 @@ $font-med: 70px;
     @media (max-width: 380px)  { @content; }
   }
 }
-

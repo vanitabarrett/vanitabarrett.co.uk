@@ -26,10 +26,10 @@ body {
 
 .temp-container__title {
   font-family: 'Arizonia', cursive;
-  font-size: $font-large;
+  font-size: $font-xlarge;
 
   @include breakpoint(1) {
-    font-size: $font-med;
+    font-size: $font-large;
   }
 }
 

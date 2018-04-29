@@ -1,0 +1,16 @@
+footer {
+    text-align: center;
+    padding: 10px;
+
+    a {
+        color: $red;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: $text-small;
+    }
+
+    svg {
+        vertical-align: middle;
+    }
+}
