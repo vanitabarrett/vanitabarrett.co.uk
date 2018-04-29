@@ -8,7 +8,7 @@
             "description": "On joining GOV.UK I worked within a team of Frontend Developers to consolidate the frontend patterns on GOV.UK and move towards a componentised system. Now working embedded in development teams, I am able to iterate further on these components, while also implementing new designs, making improvements based on user research, and ensuring the site is accessible to all.",
             "url": "https://www.gov.uk",
             "repo": "https://github.com/alphagov",
-            "skills": "HTML, SASS, JavaScript, Ruby on Rails, RSpec, MiniTest"
+            "skills": "HTML, SASS, BEM, JavaScript, Ruby on Rails, RSpec, MiniTest"
         },
         {
             "name": "Moodjar: A secure cognitive behavioural therapy application",
