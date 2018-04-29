@@ -2,6 +2,11 @@
     require_once('partials/header.inc.php');
 ?>
 
+<?php
+    $query_string = $_SERVER['QUERY_STRING'];
+    $project = project_from_query($query_string);
+?>
+
 <nav class="breadcrumbs max-width" aria-label="breadcrumb">
     <ol class="breadcrumbs__list">
         <li class="breadcrumbs__list__item">
@@ -11,25 +16,32 @@
             <a href="/">Projects</a>
         </li>
         <li class="breadcrumbs__list__item">
-            <span>GOV.UK</span>
+            <span><?= $project['name'] ?></span>
         </li>
     </ol>
 </nav>
 
 <div class="project-info max-width">
-    <h1>Project: Sushi Lab <a href="http://www.sushilab.co.uk" rel="external">(www.sushilab.co.uk)</a></h1>
+    <h1>Project: <?= $project['name'] ?>
+        <?php if (isset($project['url'])) { ?>
+            <a href="http://www.sushilab.co.uk" rel="external">(<?= $project['url'] ?>)</a>
+        <?php } end ?>
+    </h1>
     <img class="project-image" src="assets/projects/sushilab.png" alt="GOV.UK website homepage on a desktop computer, laptop and mobile device" />
 
-    <p>This is some kind of description. This is some kind of description. This is some kind of description. This is some kind of description. This is some kind of description. This is some kind of description. This is some kind of description. This is some kind of description. This is some kind of description. This is some kind of description.</p>
+    <p><?= $project['description'] ?></p>
 
-    <h2>Uses the following technologies:</h2>
-    <ul class="project-info__technologies">
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>jQuery</li>
-        <li>PHP</li>
-        <li>MySQL</li>
-    </ul>
+    <?php if (isset($project['skills'])) { ?>
+        <h2>Uses the following technologies:</h2>
+        <ul class="project-info__technologies">
+        <?php
+            $skills = explode(",", $project['skills']);
+            foreach ($skills as $skill) {
+        ?>
+            <li><?= $skill ?></li>
+        <?php } end ?>
+        </ul>
+    <?php } end ?>
 </div>
 
 <?php
