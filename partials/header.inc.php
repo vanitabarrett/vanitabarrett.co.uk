@@ -21,7 +21,6 @@
         <div class="max-width">
             <a href="/" class="web-title"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
             <nav aria-label="main page navigation">
-                <a href="/contact.php" >Contact</a>
                 <a href="blog.php" >Blog</a>
             </nav>
         </div>
