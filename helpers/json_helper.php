@@ -5,6 +5,18 @@ function projects() {
     return json_decode($project_file, true);
 }
 
+function blogs() {
+    $blogs_file = file_get_contents("data/blogs.json");
+    return json_decode($blogs_file, true);
+}
+
+function any_live_blogs() {
+    $all_blogs = blogs();
+    if ($all_blogs) {
+        echo true;
+    }
+}
+
 function project_from_query($query) {
     $json_projects = projects();
 
