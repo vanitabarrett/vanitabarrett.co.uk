@@ -19,10 +19,10 @@
     <meta name="description" content="Vanita Barrett: Web Developer portfolio. Currently Frontend Developer at Government Digital Service." />
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/styles/build/styles.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/build/styles.css">
   </head>
 
   <body>
@@ -37,7 +37,7 @@
                 <?php
                     if (any_live_blogs()) {
                 ?>
-                    <a href="blogs.php" >Blog</a>
+                    <a href="blogs" >Blog</a>
                 <?php
                     }
                 ?>

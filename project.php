@@ -31,7 +31,7 @@
             <a href="<?= $project['url'] ?>" rel="external">(<?= $project['url'] ?>)</a>
         <?php } end ?>
     </h1>
-    <img class="project-image" src="assets/projects/<?= $project['image']['name'] ?>" alt="<?= $project['image']['alt_text'] ?>" />
+    <img class="project-image" src="/assets/projects/<?= $project['image']['name'] ?>" alt="<?= $project['image']['alt_text'] ?>" />
 
     <p><?= $project['description'] ?></p>
 

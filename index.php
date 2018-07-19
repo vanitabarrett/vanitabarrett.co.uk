@@ -8,7 +8,7 @@
     <?php
         if (any_live_blogs()) {
     ?>
-        <p>I also <a href="/blogs.php" class="intro-em">write</a> about my experiences working as a developer and being a woman in tech.</p>
+        <p>I also <a href="/blogs" class="intro-em">write</a> about my experiences working as a developer and being a woman in tech.</p>
     <?php
         }
     ?>
@@ -27,7 +27,7 @@
                 foreach ($projects as $project) {
         ?>
             <li class="projects__item">
-                <h2><a href="/project.php?<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
+                <h2><a href="/project/<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
                 <p class="projects__item__job"><?= $project['job-role'] ?></p>
                 <p class="projects__item__summary"><?= $project['summary'] ?></p>
             </li>

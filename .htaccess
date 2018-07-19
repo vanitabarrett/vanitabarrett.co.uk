@@ -1,1 +1,10 @@
+Options +FollowSymLinks
+RewriteEngine On
+
 ErrorDocument 404 /404.php
+
+# Map project?[project_name] to project/[project_name]
+RewriteRule ^project/(.*)$ project.php?$1 [NC]
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^.]+[^\/])$ $1.php [L]
