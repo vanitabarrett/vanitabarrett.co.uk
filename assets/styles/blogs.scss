@@ -1,12 +1,18 @@
 .blogs {
     .blogs__item {
+        margin: $spacing-two-thirds 0;
         img {
-            max-width: 33%;
+            max-width: 25%;
         }
 
         .blogs__item__text {
             display: inline-block;
             vertical-align: top;
+            margin-left: $spacing-one-third;
+
+            h2 {
+                margin-top: $spacing-one-third / 2;
+            }
         }
     }
 }
