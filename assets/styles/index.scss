@@ -27,16 +27,20 @@
 
     img {
         width: 40%;
+
+        @include breakpoint(1) {
+            width: 100%;
+        }
     }
 
     .projects__item {
         margin: $spacing-two-thirds 0;
-        padding: $spacing-one-third 0 $spacing-full 0;
+        padding: $spacing-one-third 0 $spacing-two-thirds 0;
         border-bottom: 1px solid $lightgrey;
 
         h2, p {
             margin: 0;
-            margin-bottom: $spacing-one-third / 2;
+            margin-bottom: $spacing-one-third;
         }
 
         h2 {
