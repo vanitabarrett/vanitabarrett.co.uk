@@ -1,3 +1,7 @@
+<?php
+    require_once('partials/header.inc.php');
+?>
+
 <div class="error max-width">
     <span aria-label="error code" class="error-code">404</span>
     <h1>Sorry, that page can't be found.</h1>
@@ -7,3 +11,7 @@
     to explain what went wrong.</p>
     <a class="error-link" href="/">Back to Home</a>
 </div>
+
+<?php
+     require_once('partials/footer.inc.php');
+?>

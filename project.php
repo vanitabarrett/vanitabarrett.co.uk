@@ -6,7 +6,7 @@
     $query_string = $_SERVER['QUERY_STRING'];
     $project = project_from_query($query_string);
     if (!$project) {
-        require_once('partials/404.inc.php');
+        header("Location: /404.php");
     }
     else {
 ?>
