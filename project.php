@@ -5,6 +5,10 @@
 <?php
     $query_string = $_SERVER['QUERY_STRING'];
     $project = project_from_query($query_string);
+    if (!$project) {
+        require_once('partials/404.inc.php');
+    }
+    else {
 ?>
 
 <nav class="breadcrumbs max-width" aria-label="breadcrumb">
@@ -47,5 +51,6 @@
 </div>
 
 <?php
+    }
      require_once('partials/footer.inc.php');
 ?>

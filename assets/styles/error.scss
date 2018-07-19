@@ -1,0 +1,18 @@
+.error {
+    margin-top: $spacing-full * 2;
+    text-align: center;
+
+    .error-code {
+        font-size: $font-xlarge;
+        color: $red;
+    }
+
+    .error-link {
+        display: block;
+        padding: $spacing-two-thirds ($spacing-full + $spacing-one-third);
+        background-color: $red;
+        width: 150px;
+        margin: $spacing-full auto;
+        color: $white;
+    }
+}
