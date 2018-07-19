@@ -3,12 +3,17 @@ body {
     padding: 0;
 
     header {
+        color: $white;
         background-color: $red;
         font-weight: 400;
         height: $spacing-full * 2;
         line-height: $spacing-full * 2;
         padding-bottom: $spacing-one-third;
         border-bottom: 1px solid $red-highlight;
+
+        .web-title {
+            color: $white;
+        }
 
         .web-title--capital {
             font-family: 'Arizonia', serif;
@@ -19,13 +24,15 @@ body {
             display: inline-block;
             float: right;
 
-            a, a:visited {
+            a, a:focus, a:visited {
+                color: $white;
                 font-size: 14px;
                 margin: 0 $spacing-one-third;
                 padding: ($spacing-one-third / 2) 0;
                 text-transform: uppercase;
 
                 &:hover {
+                    color: $white;
                     border-bottom: 2px solid $white;
                 }
             }

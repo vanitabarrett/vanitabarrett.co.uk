@@ -17,6 +17,14 @@ h2 {
     font-size: $heading2;
 }
 
+a {
+    color: $red;
+
+    &:hover, &:focus, &:visited {
+        color: $red-highlight;
+    }
+}
+
 .max-width {
     max-width: 1008px;
     margin: 0 auto;
