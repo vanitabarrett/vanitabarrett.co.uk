@@ -1,0 +1,12 @@
+.blogs {
+    .blogs__item {
+        img {
+            max-width: 33%;
+        }
+
+        .blogs__item__text {
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
+}
