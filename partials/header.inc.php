@@ -17,7 +17,7 @@
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="vanita, barrett, vanita barrett, website, developer, designer, web, surrey, university, portfolio, frontend, frontend developer, gds, govuk" />
     <meta name="description" content="Vanita Barrett: Web Developer portfolio. Currently Frontend Developer at Government Digital Service." />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
