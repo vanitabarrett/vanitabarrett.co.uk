@@ -1,0 +1,10 @@
+{
+    "blogs": [
+        {
+            "status": "draft"
+        },
+        {
+            "status": "draft"
+        }
+    ]
+}

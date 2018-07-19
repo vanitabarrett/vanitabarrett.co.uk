@@ -13,7 +13,13 @@ function blogs() {
 function any_live_blogs() {
     $all_blogs = blogs();
     if ($all_blogs) {
-        echo true;
+        foreach ($all_blogs as $blogs) {
+            foreach ($blogs as $blog) {
+                if ($blog['status'] == 'live') {
+                    return true;
+                }
+            }
+        };
     }
 }
 
