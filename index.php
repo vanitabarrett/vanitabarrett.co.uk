@@ -19,22 +19,23 @@
 <div class="projects max-width">
     <h1>Projects</h1>
     <img src="assets/projects/latest-project.png" alt="A screenshot of the GOV.UK website homepage - my latest project." />
+    <ol class="projects__list">
+        <?php
+            $json_projects = projects();
 
-    <?php
-        $json_projects = projects();
-
-        foreach ($json_projects as $projects) {
-            foreach ($projects as $project) {
-    ?>
-        <div class="projects__item">
-            <h2><a href="/project.php?<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
-            <p class="projects__item__job"><?= $project['job-role'] ?></p>
-            <p class="projects__item__summary"><?= $project['summary'] ?></p>
-        </div>
-    <?php
-            }
-        };
-    ?>
+            foreach ($json_projects as $projects) {
+                foreach ($projects as $project) {
+        ?>
+            <li class="projects__item">
+                <h2><a href="/project.php?<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
+                <p class="projects__item__job"><?= $project['job-role'] ?></p>
+                <p class="projects__item__summary"><?= $project['summary'] ?></p>
+            </li>
+        <?php
+                }
+            };
+        ?>
+    </ol>
 
 <?php
     require_once('partials/footer.inc.php');

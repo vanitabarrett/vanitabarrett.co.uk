@@ -33,31 +33,37 @@
         }
     }
 
-    .projects__item {
-        margin: $spacing-two-thirds 0;
-        padding: $spacing-one-third 0 $spacing-two-thirds 0;
-        border-bottom: 1px solid $lightgrey;
+    .projects__list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
 
-        h2, p {
-            margin: 0;
-            margin-bottom: $spacing-one-third;
-        }
+        .projects__item {
+            margin: $spacing-two-thirds 0;
+            padding: $spacing-one-third 0 $spacing-two-thirds 0;
+            border-bottom: 1px solid $lightgrey;
 
-        h2 {
-            font-size: 20px;
+            h2, p {
+                margin: 0;
+                margin-bottom: $spacing-one-third;
+            }
 
-            a {
-                color: $red;
-                text-decoration: none;
+            h2 {
+                font-size: 20px;
 
-                &:hover {
-                    border-bottom: 1px solid $red;
+                a {
+                    color: $red;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-bottom: 1px solid $red;
+                    }
                 }
             }
-        }
 
-        .projects__item__job {
-            color: $grey;
+            .projects__item__job {
+                color: $grey;
+            }
         }
     }
 }
