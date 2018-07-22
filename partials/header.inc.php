@@ -20,7 +20,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 
     <link rel="shortcut icon" href="/favicon.ico" />
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/styles/build/styles.css">
   </head>
