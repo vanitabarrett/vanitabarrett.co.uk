@@ -32,7 +32,7 @@
     <div class="wrapper">
         <header>
             <div class="max-width">
-                <a href="/" class="web-title"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
+                <a href="/" class="web-title" aria-label="Vanita Barrett"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
                 <nav aria-label="main page navigation">
                     <a href="/" >Home</a>
                     <?php
