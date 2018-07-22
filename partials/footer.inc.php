@@ -14,7 +14,7 @@
                         <path d="M358.565 230.46v87.882H307.62v-81.997c0-20.595-7.374-34.656-25.81-34.656-14.084 0-22.458 9.47-26.147 18.63-1.343 3.28-1.688 7.832-1.688 12.42v85.593H203.02s.68-138.876 0-153.26h50.952v21.72c-.094.16-.236.34-.33.498h.33v-.497c6.77-10.425 18.862-25.324 45.923-25.324 33.537.003 58.67 21.91 58.67 68.983zM149.7 91.197c-17.43 0-28.838 11.44-28.838 26.473 0 14.717 11.072 26.496 28.164 26.496h.344c17.766 0 28.823-11.78 28.823-26.495-.336-15.03-11.056-26.47-28.493-26.47zM123.886 318.34h50.944V165.084h-50.944V318.34z" data-original="#FFFFFF" fill="#FFF"/>
                     </svg>
                 </a>
-                <a href="https://twitter.com/V_Barrett" aria-label="LinkedIn" rel="external">
+                <a href="https://twitter.com/V_Barrett" aria-label="Twitter" rel="external">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 473.931 473.931" role="presentation">
                         <circle cx="237.003" cy="237.003" r="237.003" fill="#6D1C31" data-original="#13B3CA" class="active-path" data-old_color="#6d1c31"/>
                         <path fill="#60192B" d="M404.567 69.42c92.545 92.542 92.552 242.59-.004 335.143-92.545 92.55-242.6 92.55-335.142.007L404.57 69.42z" data-original="#10ABB6" data-old_color="#10ABB6"/>
@@ -23,7 +23,7 @@
                     </svg>
                 </a>
             </nav>
-            <p class="footer__email">contact@vanitabarrett.co.uk</p>
+            <a class="footer__email" href="mailto:contact@vanitabarrett.co.uk">contact@vanitabarrett.co.uk</a>
         </footer>
     </body>
 </html>

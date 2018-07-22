@@ -28,7 +28,7 @@
         ?>
             <li class="projects__item">
                 <h2><a href="/project/<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
-                <p class="projects__item__job"><?= $project['job-role'] ?></p>
+                <p class="projects__item__job" aria-label="Job Title: <?= $project['job-role'] ?>"><?= $project['job-role'] ?></p>
                 <p class="projects__item__summary"><?= $project['summary'] ?></p>
             </li>
         <?php
