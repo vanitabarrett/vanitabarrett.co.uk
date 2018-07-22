@@ -29,18 +29,19 @@
     <?php
         include 'helpers/json_helper.php';
     ?>
-    <header>
-        <div class="max-width">
-            <a href="/" class="web-title"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
-            <nav aria-label="main page navigation">
-                <a href="/" >Home</a>
-                <?php
-                    if (any_live_blogs()) {
-                ?>
-                    <a href="blogs" >Blog</a>
-                <?php
-                    }
-                ?>
-            </nav>
-        </div>
-    </header>
+    <div class="wrapper">
+        <header>
+            <div class="max-width">
+                <a href="/" class="web-title"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
+                <nav aria-label="main page navigation">
+                    <a href="/" >Home</a>
+                    <?php
+                        if (any_live_blogs()) {
+                    ?>
+                        <a href="blogs" >Blog</a>
+                    <?php
+                        }
+                    ?>
+                </nav>
+            </div>
+        </header>

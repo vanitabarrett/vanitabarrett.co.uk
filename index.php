@@ -36,7 +36,7 @@
             };
         ?>
     </ol>
-
+</div>
 <?php
     require_once('partials/footer.inc.php');
 ?>

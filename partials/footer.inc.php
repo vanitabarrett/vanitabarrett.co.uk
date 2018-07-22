@@ -1,3 +1,4 @@
+    </div>
         <footer>
             <nav aria-label="visit my social media accounts">
                 <a href="https://github.com/vanitabarrett" aria-label="Github" rel="external">

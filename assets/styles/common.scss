@@ -1,3 +1,9 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 300;
@@ -23,6 +29,11 @@ a {
     &:hover, &:focus, &:visited {
         color: $red-highlight;
     }
+}
+
+.wrapper {
+    overflow: visible;
+    min-height: calc(100% - 67px);
 }
 
 .max-width {

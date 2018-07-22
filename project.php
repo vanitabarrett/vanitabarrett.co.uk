@@ -46,7 +46,7 @@
                 <li><?= $skill ?></li>
             <?php } end ?>
             </ul>
-        </div
+        </div>
     <?php } end ?>
 </div>
 
