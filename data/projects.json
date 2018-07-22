@@ -7,6 +7,7 @@
             "summary": "Making improvements to the frontend of GOV.UK, ensuring the site is accessible to all, and helping move towards a componentised system.",
             "description": "On joining GOV.UK I worked within a team of Frontend Developers to consolidate the frontend patterns on GOV.UK and move towards a componentised system. Now working embedded in development teams, I am able to iterate further on these components, while also implementing new designs, making improvements based on user research, and ensuring the site is accessible to all.",
             "url": "https://www.gov.uk",
+            "clean_url": "gov.uk",
             "repo": "https://github.com/alphagov",
             "skills": "HTML, SASS, BEM, JavaScript, Ruby on Rails, RSpec, MiniTest",
             "image": {
@@ -33,6 +34,7 @@
             "summary": "Redesign of an outdated and cluttered interface. This osteopathy clinic website now has a cleaner, more modern design.",
             "description": "Castle Street Clinic required a newly designed website to replace their outdated one, which users found difficult to navigate. This redesign splits the extensive information into clear separate sections, making sure  users are able to find the information relevant to them. The design also introduced strong brand identity throughout to match the company logo and colour scheme.",
             "url": "https://castlestreetclinic.net/",
+            "clean_url": "castlestreetclinic.net",
             "image": {
                 "name": "csc.png",
                 "alt_text": "Castle Street Clinic website shown on desktop, tablet and mobile devices."

@@ -28,7 +28,7 @@
 <div class="project-info max-width">
     <h1>Project: <?= $project['name'] ?>
         <?php if (isset($project['url'])) { ?>
-            <a href="<?= $project['url'] ?>" rel="external">(<?= $project['url'] ?>)</a>
+            <a href="<?= $project['url'] ?>" rel="external">(<?= $project['clean_url'] ?>)</a>
         <?php } end ?>
     </h1>
     <img class="project-image" src="/assets/projects/<?= $project['image']['name'] ?>" alt="<?= $project['image']['alt_text'] ?>" />
