@@ -18,7 +18,7 @@
 
 <div class="projects max-width">
     <h1>Projects</h1>
-    <img src="assets/projects/latest-project.png" alt="A screenshot of the GOV.UK website homepage - my latest project." />
+    <img src="assets/projects/latest-project.png" alt="A screenshot of the GOV.UK logo. My latest role is as a developer working on the GOV.UK website." />
     <ol class="projects__list">
         <?php
             $json_projects = projects();
