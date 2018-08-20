@@ -1,6 +1,7 @@
 Options +FollowSymLinks
 RewriteEngine On
 
+RedirectMatch 404 /\.git
 ErrorDocument 404 /404.php
 
 # Map project?[project_name] to project/[project_name]
