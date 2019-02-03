@@ -11,11 +11,13 @@
     }
     else {
 ?>
-  <div class="blog max-width">
-    <?php
-      $Parsedown = new Parsedown();
-      echo $Parsedown->text($blog);
-    ?>
+  <div class="max-width">
+    <div class="blog">
+      <?php
+        $Parsedown = new Parsedown();
+        echo $Parsedown->text($blog);
+      ?>
+    </div>
   </div>
 <?php
     }
