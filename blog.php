@@ -10,11 +10,14 @@
       header("Location: /404.php");
     }
     else {
+?>
+  <div class="blog max-width">
+    <?php
       $Parsedown = new Parsedown();
       echo $Parsedown->text($blog);
-    }
-?>
-
+    ?>
+  </div>
 <?php
-    require_once('partials/footer.inc.php');
+    }
+  require_once('partials/footer.inc.php');
 ?>

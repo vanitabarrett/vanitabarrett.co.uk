@@ -1,9 +1,18 @@
 {
     "blogs": [
         {
+            "id": "test_title",
+            "title": "Test Title",
+            "description": "This is a description",
+            "alt_text": "screenshot of a test blog post",
             "status": "draft"
         },
         {
+            "id": "",
+            "title": "Test Title",
+            "description": "This is a description",
+            "cover_image": "",
+            "alt_text": "",
             "status": "draft"
         }
     ]
