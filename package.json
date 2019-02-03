@@ -4,7 +4,7 @@
   "description": "Vanita Barrett website",
   "main": "index.php",
   "dependencies": {
-    "node-sass": "^4.7.2"
+    "node-sass": "^4.9.3"
   },
   "devDependencies": {},
   "scripts": {
