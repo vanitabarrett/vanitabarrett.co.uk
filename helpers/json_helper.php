@@ -10,6 +10,21 @@ function blogs() {
     return json_decode($blogs_file, true);
 }
 
+function live_blogs() {
+    $all_blogs = blogs();
+    $live_blogs = [];
+
+    foreach ($all_blogs as $blogs) {
+        foreach($blogs as $blog) {
+            if ($blog['status'] == 'live') {
+                $live_blogs[] = $blog;
+            }
+        }
+    }
+
+    return $live_blogs;
+}
+
 function any_live_blogs() {
     $all_blogs = blogs();
     if ($all_blogs) {
@@ -20,6 +35,18 @@ function any_live_blogs() {
                 }
             }
         };
+    }
+}
+
+function blog_from_query($query) {
+    $all_blogs = blogs();
+
+    foreach ($all_blogs as $blogs) {
+        foreach ($blogs as $blog) {
+            if ($blog["id"] == $query) {
+                return file_get_contents("blogs/" . $blog['id'] . ".md");
+            }
+        }
     }
 }
 

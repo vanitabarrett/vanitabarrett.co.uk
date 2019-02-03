@@ -3,29 +3,21 @@
 ?>
 
 <div class="blogs max-width">
-    <div class="blogs__item">
-        <img src="assets/projects/latest-project.png" alt="this is an image for the blog post"/>
-        <div class="blogs__item__text">
-            <h2>Blog post title</h2>
-            <p>Lead paragraph for this blog post</p>
-        </div>
-    </div>
+    <?php
+        $blogs = live_blogs();
 
-    <div class="blogs__item">
-        <img src="assets/projects/latest-project.png" alt="this is an image for the blog post"/>
-        <div class="blogs__item__text">
-            <h2>Blog post title</h2>
-            <p>Lead paragraph for this blog post</p>
-        </div>
-    </div>
-
-    <div class="blogs__item">
-        <img src="assets/projects/latest-project.png" alt="this is an image for the blog post"/>
-        <div class="blogs__item__text">
-            <h2>Blog post title</h2>
-            <p>Lead paragraph for this blog post</p>
-        </div>
-    </div>
+        foreach($blogs as $blog) {
+    ?>
+        <a class="blogs__item" href="/blog/<?= $blog['id'] ?>">
+            <img src="<?= $blog['id'] . '.png' ?>" alt="<?= $blog['alt_text'] ?>"/>
+            <div class="blogs__item__text">
+                <h2><?= $blog['title'] ?></h2>
+                <p><?= $blog['description'] ?></p>
+            </div>
+        </a>
+    <?php
+        };
+    ?>
 </div>
 
 <?php
