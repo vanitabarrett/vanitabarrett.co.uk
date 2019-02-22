@@ -30,9 +30,9 @@
             <li class="projects__item">
                 <h2><a href="/project/<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
                 <?php
-                    if ($project['in_progress']) {
+                    if ($project['ongoing']) {
                 ?>
-                    <span class="projects__beta">In Progress</span>
+                    <span class="projects__beta">Ongoing</span>
                 <?php
                     }
                 ?>
