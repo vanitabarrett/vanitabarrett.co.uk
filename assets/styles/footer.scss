@@ -1,7 +1,9 @@
 footer {
+    font-size: $text-small;
     text-align: center;
     position: relative;
     bottom: 0;
+    border-bottom: 5px solid $red;
 
     a {
         color: $red;
@@ -16,6 +18,7 @@ footer {
     }
 
     .footer__email {
+        display: block;
         font-weight: 300;
         font-size: $text-small;
         margin-top: $spacing-one-third;

@@ -24,6 +24,7 @@
                 </a>
             </nav>
             <a class="footer__email" href="mailto:contact@vanitabarrett.co.uk">contact@vanitabarrett.co.uk</a>
+            <p>&copy; Vanita Barrett 2018</p>
         </footer>
     </body>
 </html>
