@@ -29,6 +29,14 @@
         ?>
             <li class="projects__item">
                 <h2><a href="/project/<?= $project['abbr'] ?>"><?= $project['name'] ?></a></h2>
+                <?php
+                    if ($project['in_progress']) {
+                ?>
+                    <span class="projects__beta">In Progress</span>
+                <?php
+                    }
+                ?>
+
                 <p class="projects__item__job" aria-label="Job Title: <?= $project['job-role'] ?>"><?= $project['job-role'] ?></p>
                 <p class="projects__item__summary"><?= $project['summary'] ?></p>
             </li>

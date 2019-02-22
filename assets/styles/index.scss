@@ -54,6 +54,7 @@
             }
 
             h2 {
+                display: inline-block;
                 font-size: 20px;
 
                 a {
@@ -64,6 +65,18 @@
                         border-bottom: 1px solid $red;
                     }
                 }
+            }
+
+            .projects__beta {
+                display: inline-block;
+                text-transform: uppercase;
+                font-size: $text-x-small;
+                font-weight: bold;
+                color: $white;
+                background-color: $black;
+                padding: 5px;
+                vertical-align: top;
+                margin-left: 5px;
             }
 
             .projects__item__job {
