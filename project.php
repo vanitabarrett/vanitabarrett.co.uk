@@ -31,7 +31,17 @@
             <a href="<?= $project['url'] ?>" rel="external">(<?= $project['clean_url'] ?>)</a>
         <?php } end ?>
     </h1>
-    <img class="project-image" src="/assets/projects/<?= $project['image']['name'] ?>" alt="<?= $project['image']['alt_text'] ?>" />
+
+    <div class="image-wrapper">
+        <?php
+            $image_count = count($project['images']);
+            foreach ($project['images'] as $image) {
+        ?>
+            <img class="project-image <?php if ($image_count > 1) {?><?= "project-image--multiple" ?><?php } ?>" src="/assets/projects/<?= $image['name'] ?>" alt="<?= $image['alt_text'] ?>" />
+        <?php
+            }
+        ?>
+    </div>
 
     <p><?= $project['description'] ?></p>
 

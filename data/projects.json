@@ -5,64 +5,88 @@
             "abbr": "govuk",
             "job-role": "Frontend Developer",
             "summary": "Building new templates, enhancing accessibility, and working with other frontend developers to consolidate and improve the frontend architecture across the UK government website.",
-            "description": "On joining GOV.UK I worked within a team of Frontend Developers to consolidate the frontend patterns on GOV.UK and move towards a componentised system. Now working embedded in development teams, I am able to iterate further on these components, while also implementing new designs, making improvements based on user research, and ensuring the site is accessible to all.",
+            "description": "Primarily, my role as a frontend developer on GOV.UK involves building new templates and components, taking outcomes from user research and accessibility audits and turning them into actionable developer stories, enhancing the accessibility of GOV.UK and working with other frontend developers to consolidate and improve the frontend architecture across GOV.UK.<br /><br />In my time so far at GDS I have, among other things, built new topic pages to surface the sitewide taxonomy, converted hardcoded layouts into reusable, accessible, tested components, and led the frontend development of an EU Exit page for UK Citizens.",
             "url": "https://www.gov.uk",
             "clean_url": "gov.uk",
             "repo": "https://github.com/alphagov",
-            "skills": "HTML, SASS, BEM, JavaScript, Ruby on Rails, RSpec, MiniTest",
-            "image": {
-                "name": "govuk.png",
-                "alt_text": "A GOV.UK taxon page, displaying on desktop, tablet and mobile devices."
-            }
+            "skills": "HTML, SASS, BEM, JavaScript, jQuery, Ruby on Rails, Mustache, Jasmine, RSpec, MiniTest",
+            "images": [
+                {
+                    "name": "govuk.png",
+                    "alt_text": "An image of www.gov.uk/prepare-eu-exit. This page was developed in the lead up to the EU Exit vote, to inform UK citizens of the content on GOV.UK related to EU Exit that may be of interest."
+                },
+                {
+                    "name": "govuk1.png",
+                    "alt_text": "An image of www.gov.uk/education, which surfaces content tagged to 'Education' in  the GOV.UK taxonomy."
+                }
+            ]
         },
         {
-            "name": "Moodjar: A secure cognitive behavioural therapy application",
+            "name": "A secure cognitive behavioural therapy application",
             "abbr": "moodjar",
             "job-role": "Software Developer (Web and Android)",
             "summary": "Dissertation project exploring the use of secure technology to enhance communication between health professionals and patients within the health industry.",
-            "description": "Android and web application (with user and admin-facing interfaces) developed as a dissertation project for BSc Computing and Information Technology. Users were able to use the application as a mental health diary, which could be accessed by their chosen healthcare professional via a REST API querying a central encrypted database. This project was never made live, so a link cannot be provided.",
+            "description": "A secure android and web application, demonstrating how current technology could be used to increase and improve communications between patients and healthcare professionals, specifically in the area of mental health and cognitive behavioural therapy. Users would be signed up for an account by their healthcare professional and could use the android app to enter into their mood diary. This information was securely stored in an encrypted database and could be viewed only by that patient's doctor/therapist via the web admin interface.",
             "skills": "Java, Android Fingerprint Authentication API, HTML, SASS, jQuery, CanvasJS, nodeJS, PostgreSQL, Data Encryption (AES-GCM)",
-            "image": {
+            "images": [
+                {
                 "name": "moodjar.png",
-                "alt_text": "Moodjar admin login interface shown on desktop. Mobile user interface shown on tablet, with options for users to select their current mood from a range of visual images. Mobile user login interface shown on smaller iPhone device."
-            }
+                "alt_text": "Two images from the mobile application, side by side. The left shows the login page. The right shows a 'mood options menu' within the mood diary section, where users can select from six moods: happy; sad; neutral; angry; anxious; overwhelmed."
+                }
+            ]
         },
         {
             "name": "Castle Street Clinic",
             "abbr": "csc",
             "job-role": "Web Designer",
             "summary": "Website redesign for an osteopathy clinic.",
-            "description": "Castle Street Clinic required a newly designed website to replace their outdated one, which users found difficult to navigate. This redesign splits the extensive information into clear separate sections, making sure  users are able to find the information relevant to them. The design also introduced strong brand identity throughout to match the company logo and colour scheme.",
-            "url": "https://castlestreetclinic.net/",
-            "clean_url": "castlestreetclinic.net",
-            "image": {
-                "name": "csc.png",
-                "alt_text": "Castle Street Clinic website shown on desktop, tablet and mobile devices."
-            }
+            "description": "Castle Street Clinic required a newly designed website to replace their outdated one, which users found difficult to navigate. The redesign splits the extensive information into more easily digestible chunks. The old site also featured a lot of pale yellow text, failing WCAG colour contrast requirements. The new design still makes strong use of the company branding, introducing the logo to the landing page, but fixes those accessibility issues.",
+            "images": [
+                {
+                    "name": "csc.png",
+                    "alt_text": "Image of the old Castle Street Clinic website. The majority of the text is a pale yellow or gold. Features a navigation sidebar to the left, with content on the right. There is no clear banding."
+                },
+                {
+                    "name": "csc1.png",
+                    "alt_text": "Image of the new Castle Street Clinic website. This new design now features the company logo and clear brand colours of yellow and blue. The navigation menu now runs horizontally across the top of the page. The page also now features call to action buttons to view treatments and therapists."
+                }
+            ]
         },
         {
             "name": "Sushi Lab",
             "abbr": "sushilab",
             "job-role": "Web Designer and Developer",
             "summary": "Website design for a new quick-service sushi restaurant based in Guildford.",
-            "description": "Simply provided with a company logo and the request that it be 'bold and exciting', this project uses bold brand colours paired with a clean design. A keen eye for detail was used here, with animated SVG icons, social media feed, and custom styling of Google Maps. Developed alongside <a href=\"http://www.andrewmsmith.co.uk\" target=\"_blank\">Andy Smith</a>.",
+            "description": "Calvin required a website for the new sushi restaurant he was opening in Guildford town centre. He took a very laid-back approach, providing only the company logo and a request that the site be 'bold and exciting'. The site featured: animated SVG icons; custom CMS; social media and news feed, and custom styling of Google Maps. Developed alongside <a href=\"http://www.andrewmsmith.co.uk\" target=\"_blank\">Andy Smith</a>.",
             "skills": "HTML5, SCSS, SVG Animations, jQuery, RequireJS, Mustache, PHP, MySQL",
-            "image": {
-                "name": "sushilab.png",
-                "alt_text": "Sushi Lab website shown on desktop, tablet and mobile devices."
-            }
+            "images":  [
+                {
+                    "name": "sushilab1.png",
+                    "alt_text": "Sushi Lab homepage design."
+                },
+                {
+                    "name": "sushilab2.png",
+                    "alt_text": "Sushi Lab services page design."
+                }
+            ]
         },
         {
             "name": "Book Management Application",
             "abbr": "books",
             "job-role": "Owner, Designer and Developer",
             "summary": "Design and build of a web application to track reading over a long period of time. A user can monitor their progress against the <a href=\"https://www.listchallenges.com/1001-books-you-must-read-before-you-die\">1001 Books to Read Before You Die (2008 edition)</a>.",
-            "description": "This web application is a personal project, allowing me to record progress against the 1001 Books to Read Before You Die. The site uses a populated database of all 1001 books which can be marked as 'Yet to be Started', 'In Progress' and 'Completed'. Books outside this list can also be recorded - the homepage dashboard shows progress plotted for both list and non-list books.",
+            "description": "The site uses a populated database of all 1001 books which can be marked as 'Yet to be Started', 'In Progress' and 'Completed'. Books outside this list can also be recorded - the homepage dashboard shows progress plotted for both list and non-list books.",
             "skills": "HTML5, SCSS, jQuery, Flot Graphs for jQuery, MySQL, PHP",
-            "image": {
-                "name": "books.png",
-                "alt_text": "Books Management Application shown on desktop, tablet and mobile devices."
-            }
+            "images": [
+                {
+                    "name": "books1.png",
+                    "alt_text": "Image of landing page. Shows stats on how many books have been read, both out of the 1001 list and in general."
+                },
+                {
+                    "name": "books2.png",
+                    "alt_text": "Image of the 1001 Books List page. Shows a table of book titles, authors, status and date completed."
+                }
+            ]
         }
     ]
 }

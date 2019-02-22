@@ -41,6 +41,10 @@
         }
     }
 
+    p {
+        margin-bottom: 0;
+    }
+
      &__technologies {
         margin-top: $spacing-full;
 
@@ -50,7 +54,7 @@
 
         &-list {
             margin-bottom: 0;
-            padding-bottom: $spacing-one-third;
+            margin-top: 5px;
         }
 
         &-list li {
@@ -61,9 +65,25 @@
     }
 }
 
-.project-image {
-    display: block;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
+.image-wrapper {
+    overflow: hidden;
+    text-align: center;
+
+    .project-image {
+        display: inline-block;
+        width: 50%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding-top: 5px;
+        padding-right: 5px;
+        box-sizing: border-box;
+
+        &--multiple {
+            float: left;
+        }
+
+        @include breakpoint(1) {
+            width: 100%;
+        }
+    }
 }
