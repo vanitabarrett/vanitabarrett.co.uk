@@ -5,6 +5,7 @@ body {
 }
 
 body {
+    background-color: $red;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 300;
     font-size: $text;
@@ -32,6 +33,7 @@ a {
 }
 
 .wrapper {
+    background-color: $white;
     overflow: visible;
     min-height: calc(100% - 67px);
 }
