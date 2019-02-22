@@ -3,7 +3,7 @@
 ?>
 
 <div class="intro max-width">
-    <p>I'm a Web Developer and Designer, based in London. I work as a <span class="intro-em">Frontend Developer</span> at <a href="https://gds.blog.gov.uk/" rel="external" class="intro-em">Government Digital Service</a>, helping make <a href="https://gov.uk" rel="external" class="intro-em">GOV.UK</a> better for users.</p>
+    <p>I'm a Web Developer, based in London. I work as a <span class="intro-em">Frontend Developer</span> at <a href="https://gds.blog.gov.uk/" rel="external" class="intro-em">Government Digital Service</a>, helping make <a href="https://gov.uk" rel="external" class="intro-em">GOV.UK</a> better for users.</p>
 
     <?php
         if (any_live_blogs()) {
@@ -12,6 +12,8 @@
     <?php
         }
     ?>
+
+    <p>Occasionally, I pretend to be a web designer, <a href="https://www.flickr.com/photos/v_barrett/" rel="external" class="intro-em">photographer</a> and <a href="https://www.instagram.com/vanitabakes/" rel="external" class="intro-em">baker</a>.</p>
 
     <p>You can find me on <a href="https://www.linkedin.com/in/vanitabarrett/" rel="external" class="intro-em">LinkedIn</a> and <a href="https://twitter.com/V_Barrett" rel="external" class="intro-em">Twitter</a>.</p>
 </div>
