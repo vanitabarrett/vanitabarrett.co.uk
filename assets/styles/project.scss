@@ -48,6 +48,11 @@
             margin: 0;
         }
 
+        &-list {
+            margin-bottom: 0;
+            padding-bottom: $spacing-one-third;
+        }
+
         &-list li {
             display: inline-block;
             list-style-type: none;
