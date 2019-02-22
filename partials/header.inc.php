@@ -19,7 +19,8 @@
     <meta name="description" content="Vanita Barrett: Web Developer portfolio. Currently Frontend Developer at Government Digital Service." />
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/styles/build/styles.css">
