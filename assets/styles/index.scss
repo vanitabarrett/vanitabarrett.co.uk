@@ -21,10 +21,6 @@
 }
 
 .projects {
-    h1 {
-        margin-bottom: $spacing-one-third;
-    }
-
     img {
         width: 40%;
 
@@ -42,6 +38,11 @@
             margin: $spacing-two-thirds 0;
             padding: $spacing-one-third 0 $spacing-two-thirds 0;
             border-bottom: 1px solid $lightgrey;
+
+            &:first-child {
+                margin-top: 0;
+                padding-top: 0;
+            }
 
             &:last-child {
                 margin-bottom: 0;
