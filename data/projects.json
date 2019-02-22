@@ -18,7 +18,7 @@
         {
             "name": "Moodjar: A secure cognitive behavioural therapy application",
             "abbr": "moodjar",
-            "job-role": "Software Developer",
+            "job-role": "Software Developer (Web and Android)",
             "summary": "Dissertation project exploring the use of secure technology to enhance communication between health professionals and patients within the health industry.",
             "description": "Android and web application (with user and admin-facing interfaces) developed as a dissertation project for BSc Computing and Information Technology. Users were able to use the application as a mental health diary, which could be accessed by their chosen healthcare professional via a REST API querying a central encrypted database. This project was never made live, so a link cannot be provided.",
             "skills": "Java, Android Fingerprint Authentication API, HTML, SASS, jQuery, CanvasJS, nodeJS, PostgreSQL, Data Encryption (AES-GCM)",
@@ -30,7 +30,7 @@
         {
             "name": "Castle Street Clinic",
             "abbr": "csc",
-            "job-role": "Designer",
+            "job-role": "Web Designer",
             "summary": "Website redesign for an osteopathy clinic.",
             "description": "Castle Street Clinic required a newly designed website to replace their outdated one, which users found difficult to navigate. This redesign splits the extensive information into clear separate sections, making sure  users are able to find the information relevant to them. The design also introduced strong brand identity throughout to match the company logo and colour scheme.",
             "url": "https://castlestreetclinic.net/",
@@ -55,7 +55,7 @@
         {
             "name": "Book Management Application",
             "abbr": "books",
-            "job-role": "Web Designer and Developer",
+            "job-role": "Owner, Designer and Developer",
             "summary": "Design and build of a web application to track reading over a long period of time. A user can monitor their progress against the <a href=\"https://www.listchallenges.com/1001-books-you-must-read-before-you-die\">1001 Books to Read Before You Die (2008 edition)</a>.",
             "description": "This web application is a personal project, allowing me to record progress against the 1001 Books to Read Before You Die. The site uses a populated database of all 1001 books which can be marked as 'Yet to be Started', 'In Progress' and 'Completed'. Books outside this list can also be recorded - the homepage dashboard shows progress plotted for both list and non-list books.",
             "skills": "HTML5, SCSS, jQuery, Flot Graphs for jQuery, MySQL, PHP",
