@@ -6,10 +6,12 @@
 
     &__item {
         display: inline-block;
-        text-decoration: none;
         color: $black;
-        font-weight: bold;
-        font-size: $text-small;
+        font-size: $text;
+
+        a {
+            text-decoration: none;
+        }
 
         a:hover {
             text-decoration: underline;
