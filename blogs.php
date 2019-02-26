@@ -9,7 +9,6 @@
         foreach($blogs as $blog) {
     ?>
         <a class="blogs__item" href="/blog/<?= $blog['id'] ?>">
-            <img src="writing/images/<?= $blog['id'] . '.png' ?>" alt="<?= $blog['alt_text'] ?>"/>
             <div class="blogs__item__text">
                 <h2><?= $blog['title'] ?></h2>
                 <p><?= $blog['description'] ?></p>
