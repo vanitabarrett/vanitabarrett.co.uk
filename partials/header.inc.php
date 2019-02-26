@@ -29,20 +29,25 @@
   <body>
     <?php
         include 'helpers/json_helper.php';
+
+        $pages = array('/' => 'Home','blogs' =>'Blog');
     ?>
     <div class="wrapper">
         <header>
             <div class="max-width">
                 <a href="/" class="web-title" aria-label="Vanita Barrett"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
                 <nav aria-label="main page navigation">
-                    <a href="/" >Home</a>
                     <?php
-                        if (any_live_blogs()) {
+                        foreach ($pages as $page => $title) {
                     ?>
-                        <a href="blogs" >Blog</a>
-                    <?php
-                        }
-                    ?>
+                        <?php if ($page == 'blog') { ?>
+                            <?php if (any_live_blogs()) { ?>
+                                <a <?php if ($_SERVER['REQUEST_URI'] === $page) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
+                            <?php } ?>
+                        <?php } else { ?>
+                            <a <?php if ($_SERVER['REQUEST_URI'] === $page) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
+                        <?php } ?>
+                    <?php } ?>
                 </nav>
             </div>
         </header>

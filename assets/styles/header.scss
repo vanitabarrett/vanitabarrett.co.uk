@@ -24,6 +24,11 @@ body {
             display: inline-block;
             float: right;
 
+            .nav--active {
+                color: $white;
+                border-bottom: 2px solid $white;
+            }
+
             a, a:focus, a:visited {
                 color: $white;
                 font-size: 14px;
