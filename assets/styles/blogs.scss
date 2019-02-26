@@ -24,6 +24,15 @@
         margin: 0 $spacing-one-third;
     }
 
+    .instagram__metadata {
+        font-size: $text-small;
+        text-align: right;
+
+        span {
+            margin-right: $spacing-one-third / 2;
+        }
+    }
+
     .instagram__image {
         width: 200px;
         height: 200px;
