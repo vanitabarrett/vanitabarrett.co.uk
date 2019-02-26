@@ -20,6 +20,16 @@
     ?>
 
     <div class="instagram">
+        <div class="instagram__user">
+            <?php $instagramUser = instagramProfile(); ?>
+            <img class="instagram__pp" src="<?= $instagramUser["profile_picture"] ?>" />
+            <div class="instagram__user-details">
+                <p class="instagram__username"><?= $instagramUser["username"] ?></p>
+                <p class="instagram__bio"><?= $instagramUser["bio"] ?></p>
+                <a class="instagram__follow" href="https://www.instagram.com/thisgirlcodes/" rel="external">Follow me on Instagram</a>
+            </div>
+        </div>
+
         <?php
             foreach(instagramData() as $instagramPost) {
         ?>

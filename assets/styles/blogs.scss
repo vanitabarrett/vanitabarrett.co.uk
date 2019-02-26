@@ -18,10 +18,51 @@
     border-top: 1px solid $lightgrey;
     padding-top: $spacing-one-third;
 
+    .instagram__user {
+        margin-bottom: $spacing-two-thirds;
+    }
+
+    .instagram__username {
+        font-weight: bold;
+    }
+
+    .instagram__follow {
+        background-color: $red;
+        padding: 5px;
+        color: $white;
+        font-size: $text-small;
+        text-decoration: none;
+
+        &:hover, a:focus {
+            background-color: $red-highlight;
+        }
+    }
+
+    .instagram__pp {
+        border-radius: 50%;
+        width: 80px;
+        vertical-align: top;
+    }
+
+    .instagram__user-details {
+        display: inline-block;
+        margin-left: $spacing-one-third;
+        margin-top: $spacing-one-third / 2;
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .instagram__bio {
+            margin-bottom: $spacing-one-third;
+        }
+    }
+
     .instagram__post {
         display: inline-block;
         text-decoration: none;
-        margin: 0 $spacing-one-third;
+        margin: 0 $spacing-one-third 0 0;
     }
 
     .instagram__metadata {
