@@ -13,3 +13,19 @@
         }
     }
 }
+
+.instagram {
+    border-top: 1px solid $lightgrey;
+    padding-top: $spacing-one-third;
+
+    .instagram__post {
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 $spacing-one-third;
+    }
+
+    .instagram__image {
+        width: 200px;
+        height: 200px;
+    }
+}
