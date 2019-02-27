@@ -40,7 +40,7 @@
                     <?php
                         foreach ($pages as $page => $title) {
                     ?>
-                        <?php if ($page == 'blog') { ?>
+                        <?php if ($page == 'blogs') { ?>
                             <?php if (any_live_blogs()) { ?>
                                 <a <?php if ($_SERVER['REQUEST_URI'] === $page) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
                             <?php } ?>
