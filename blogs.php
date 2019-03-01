@@ -32,7 +32,7 @@
             <?php
                 foreach(instagramData() as $instagramPost) {
             ?>
-                <a class="instagram__post" href="<?= $instagramPost["link"] ?>">
+                <a class="instagram__post" href="<?= $instagramPost["link"] ?>" rel="external">
                     <img class="instagram__image" src="<?= $instagramPost["images"]["low_resolution"]["url"]?>">
                     <div class="instagram__metadata">
                         <span><?= $instagramPost["likes"]["count"] ?> likes</span>
