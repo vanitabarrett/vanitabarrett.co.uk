@@ -20,7 +20,12 @@
     padding-top: $spacing-one-third;
 
     .instagram__user {
+        margin-left: $spacing-full;
         margin-bottom: $spacing-two-thirds;
+    }
+
+    .instagram__posts {
+        text-align: center;
     }
 
     .instagram__username {

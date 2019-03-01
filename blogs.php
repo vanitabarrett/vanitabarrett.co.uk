@@ -28,19 +28,21 @@
             </div>
         </div>
 
-        <?php
-            foreach(instagramData() as $instagramPost) {
-        ?>
-            <a class="instagram__post" href="<?= $instagramPost["link"] ?>">
-                <img class="instagram__image" src="<?= $instagramPost["images"]["low_resolution"]["url"]?>">
-                <div class="instagram__metadata">
-                    <span><?= $instagramPost["likes"]["count"] ?> likes</span>
-                    <span><?= $instagramPost["comments"]["count"] ?> comments</span>
-                </div>
-            </a>
-        <?php
-            }
-        ?>
+        <div class="instagram__posts">
+            <?php
+                foreach(instagramData() as $instagramPost) {
+            ?>
+                <a class="instagram__post" href="<?= $instagramPost["link"] ?>">
+                    <img class="instagram__image" src="<?= $instagramPost["images"]["low_resolution"]["url"]?>">
+                    <div class="instagram__metadata">
+                        <span><?= $instagramPost["likes"]["count"] ?> likes</span>
+                        <span><?= $instagramPost["comments"]["count"] ?> comments</span>
+                    </div>
+                </a>
+            <?php
+                }
+            ?>
+        </div>
     </div>
 </div>
 
