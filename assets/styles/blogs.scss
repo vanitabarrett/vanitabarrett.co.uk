@@ -1,7 +1,7 @@
 .blogs {
     .blogs__item {
         display: block;
-        margin: $spacing-two-thirds 0;
+        margin: $spacing-full 0 $spacing-two-thirds 0;
 
         .blogs__item__text {
             display: inline-block;
