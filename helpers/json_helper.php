@@ -44,7 +44,9 @@ function blog_from_query($query) {
     foreach ($all_blogs as $blogs) {
         foreach ($blogs as $blog) {
             if ($blog["id"] == $query) {
-                return file_get_contents("writing/" . $blog['id'] . ".md");
+                $blogArr["metadata"] = $blog;
+                $blogArr["text"] = file_get_contents("writing/" . $blog['id'] . ".md");
+                return $blogArr;
             }
         }
     }

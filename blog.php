@@ -13,10 +13,13 @@
 ?>
   <div class="max-width">
     <div class="blog">
-      <?php
-        $Parsedown = new Parsedown();
-        echo $Parsedown->text($blog);
-      ?>
+      <img src="/writing/images/<?= $blog["metadata"]["id"] ?>.png" class="blog__cover-image">
+      <div class="blog__main">
+        <?php
+          $Parsedown = new Parsedown();
+          echo $Parsedown->text($blog["text"]);
+        ?>
+      </div>
     </div>
   </div>
 <?php

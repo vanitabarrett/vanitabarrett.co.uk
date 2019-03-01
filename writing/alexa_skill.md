@@ -1,5 +1,3 @@
-![alt text](./writing/images/alexa_skill.png "Amazon Echo")
-
 # 3 Things I Learnt from Developing an Alexa Skill
 
 At Government Digital Service (GDS), we have been participating in firebreaks: 1 week breaks between our quarterly missions to give people the opportunity to slow down their pace of working and scratch an itch. Since [this concept began in 2015](https://insidegovuk.blog.gov.uk/2015/02/06/gov-uks-firebreak-why-and-how-we-spent-a-month-working-differently/), we’ve had people writing up and collating resources around how GOV.UK was built, improving the structured learning for our Junior Developers, and exploring how to build a Facebook Messenger chatbot for GOV.UK.
