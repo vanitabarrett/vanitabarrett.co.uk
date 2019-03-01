@@ -9,12 +9,10 @@
 
         foreach($blogs as $blog) {
     ?>
-        <a class="blogs__item" href="/blog/<?= $blog['id'] ?>">
-            <div class="blogs__item__text">
-                <h2><?= $blog['title'] ?></h2>
-                <p><?= $blog['description'] ?></p>
-            </div>
-        </a>
+        <div class="blogs__item__text">
+            <a class="blogs__item" href="/blog/<?= $blog['id'] ?>"><h2><?= $blog['title'] ?></h2></a>
+            <p><?= $blog['description'] ?></p>
+        </div>
     <?php
         };
     ?>
