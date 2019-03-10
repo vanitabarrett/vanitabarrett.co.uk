@@ -39,7 +39,7 @@
 
   <body>
     <?php
-        $pages = array('/' => 'Home','blogs' =>'Blog');
+        $pages = array('/' => 'Home','/blogs' =>'Blog');
     ?>
     <div class="wrapper">
         <header>
