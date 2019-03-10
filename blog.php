@@ -1,15 +1,16 @@
 <?php
-    require_once('partials/header.inc.php');
     require_once('helpers/Parsedown.php');
+    include 'helpers/json_helper.php';
+    $query_string = $_SERVER['QUERY_STRING'];
+    $blog = blog_from_query($query_string);
+    require_once('partials/headerblog.inc.php');
 ?>
 
 <?php
-    $query_string = $_SERVER['QUERY_STRING'];
-    $blog = blog_from_query($query_string);
-    if (!$blog) {
-      header("Location: /404.php");
-    }
-    else {
+  if (!$blog) {
+    header("Location: /404.php");
+  }
+  else {
 ?>
   <div class="max-width">
     <div class="blog">
