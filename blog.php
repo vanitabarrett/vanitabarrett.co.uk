@@ -30,9 +30,9 @@
       <div class="share-links">
         <p>Share on:</p>
         <ul>
-          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://vanitabarrett.co.uk/blog/<?= $blog["id"] ?>">Facebook</a></li>
-          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://vanitabarrett.co.uk/blog/<?= $blog["id"] ?>&title=<?= $blog["title"] ?>&summary=<?= $blog["description"] ?>">LinkedIn</a></li>
-          <li><a href="https://twitter.com/home?status=https://vanitabarrett.co.uk/blog/<?= $blog["id"] ?>" >Twitter</a></li>
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>">Facebook</a></li>
+          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>&title=<?= $blog["metadata"]["title"] ?>&summary=<?= $blog["metadata"]["description"] ?>">LinkedIn</a></li>
+          <li><a href="https://twitter.com/home?status=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>" >Twitter</a></li>
         </ul>
       </div>
     </aside>
