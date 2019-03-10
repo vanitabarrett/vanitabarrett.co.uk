@@ -13,14 +13,14 @@ I’d heard a lot about how easy and quick it is to develop an Alexa skill. Howe
 As a developer, I rely heavily on testing my code as I go along. Day-to-day, I’m regularly printing out responses and function returns to double check all steps in my code are working as expected. However, when developing an Alexa skill, although you’re able to test the logic locally, in order to check the skill as a whole you have to upload it and test it through the Alexa Developer Portal. This isn’t difficult, but slows down the development process, especially when making small refactoring changes.
 
 <figure>
-  <img src="writing/images/alexa_skill_test.png" alt="Testing interface in Alexa Developer Portal"/>
+  <img src="/writing/images/alexa_skill_test.png" alt="Testing interface in Alexa Developer Portal"/>
   <figcaption>Testing interface in Alexa Developer Portal</figcaption>
 </figure>
 
 The Alexa Developer Portal testing environment doesn’t give you useful error messages if something goes wrong. If you’re using AWS Lambda to host your skill, I’d recommend using their testing functionality instead. AWS Lambda lets you create up to 10 JSON test events which are passed to your Lambda function for testing. When testing, you get to see the full JSON response and logs.
 
 <figure>
-  <img src="writing/images/alexa_skill_lambda.png" alt="Testing interface in AWS Lambda"/>
+  <img src="/writing/images/alexa_skill_lambda.png" alt="Testing interface in AWS Lambda"/>
   <figcaption>Testing interface in AWS Lambda</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ The Alexa Developer Portal testing environment doesn’t give you useful error m
 No one can accuse Amazon or AWS (Amazon Web Services) documentation of not being thorough, but can be almost impossible to find what you need.
 
 <figure>
-  <img src="writing/images/alexa_skill_tabs.png" alt="Over 30 tabs open with documentation on how to build an Alexa skill."/>
+  <img src="/writing/images/alexa_skill_tabs.png" alt="Over 30 tabs open with documentation on how to build an Alexa skill."/>
   <figcaption>All the tabs I had open while developing this skill! The step-by-step guide on <a href="https://developer.amazon.com/docs/custom-skills/steps-to-build-a-custom-skill.html#step-1-design-a-voice-user-interface">Building a Custom Alexa Skill</a> itself links to 30 other pages.</figcaption>
 </figure>
 
