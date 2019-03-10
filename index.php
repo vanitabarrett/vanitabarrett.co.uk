@@ -13,7 +13,7 @@
         }
     ?>
 
-    <p>Occasionally, I pretend to be a web designer, <a href="https://www.flickr.com/photos/v_barrett/" rel="external" class="intro-em">photographer</a> and <a href="https://www.instagram.com/vanitabakes/" rel="external" class="intro-em">baker</a>. I live, love and code with <a href="https://www.andyms.uk" rel="external">Andy Smith</a>, Software Engineering Team Lead on BBC iPlayer Web.</p>
+    <p>Occasionally, I pretend to be a web designer, <a href="https://www.flickr.com/photos/v_barrett/" rel="external" class="intro-em">photographer</a> and <a href="https://www.instagram.com/vanitabakes/" rel="external" class="intro-em">baker</a>. I live, love and code with <a href="https://www.andyms.uk" rel="external">Andy Smith</a>, Software Engineering Team Lead at BBC iPlayer.</p>
 
     <p>You can find me on <a href="https://www.linkedin.com/in/vanitabarrett/" rel="external" class="intro-em">LinkedIn</a> and <a href="https://twitter.com/V_Barrett" rel="external" class="intro-em">Twitter</a>.</p>
 </div>
