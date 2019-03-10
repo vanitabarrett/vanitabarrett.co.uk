@@ -20,8 +20,28 @@
       padding-bottom: 0;
     }
 
+    .blog__date {
+      margin: 0;
+      color: $grey;
+      font-size: $text-small;
+    }
+
     h1 {
       margin: 0;
+    }
+
+    figure {
+      margin: 0;
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+
+      figcaption {
+        font-style: italic;
+        font-size: $text-small;
+      }
     }
   }
 }
