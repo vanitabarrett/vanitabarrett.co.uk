@@ -12,6 +12,16 @@
     else {
 ?>
   <div class="max-width">
+    <div class="blog">
+      <img src="/writing/images/<?= $blog["metadata"]["id"] ?>.png" class="blog__cover-image">
+      <div class="blog__main">
+        <?php
+          $Parsedown = new Parsedown();
+          echo $Parsedown->text($blog["text"]);
+        ?>
+      </div>
+    </div>
+
     <aside>
       <div class="about">
         <h2>About</h2>
@@ -27,15 +37,6 @@
       </div>
     </aside>
 
-    <div class="blog">
-      <img src="/writing/images/<?= $blog["metadata"]["id"] ?>.png" class="blog__cover-image">
-      <div class="blog__main">
-        <?php
-          $Parsedown = new Parsedown();
-          echo $Parsedown->text($blog["text"]);
-        ?>
-      </div>
-    </div>
   </div>
 <?php
     }

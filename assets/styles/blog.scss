@@ -2,6 +2,10 @@
   width: 66%;
   display: inline-block;
 
+  @include breakpoint(1) {
+    width: 100%;
+  }
+
   .blog__cover-image {
     width: 100%;
     height: 100px;
@@ -11,6 +15,10 @@
 
   .blog__main {
     padding: $spacing-two-thirds 0;
+
+    @include breakpoint(1) {
+      padding-bottom: 0;
+    }
 
     h1 {
       margin: 0;
@@ -24,10 +32,19 @@ aside {
   display: inline-block;
   margin-top: $spacing-two-thirds;
 
+  @include breakpoint(1) {
+    width: 100%;
+    margin-top: 0;
+  }
+
   .about {
     background-color: $red;
     color: $white;
     padding: $spacing-one-third;
+
+    @include breakpoint(1) {
+      display: none;
+    }
 
     h2 {
       margin: 0;
