@@ -14,7 +14,7 @@
 ?>
   <div class="max-width">
     <div class="blog">
-      <img src="/writing/images/<?= $blog["metadata"]["id"] ?>.png" class="blog__cover-image">
+      <img src="/writing/images/<?= $blog["metadata"]["id"] ?>.png" class="blog__cover-image" alt="">
       <div class="blog__main">
         <?php
           $Parsedown = new Parsedown();
