@@ -35,6 +35,18 @@
 }
 
 .project-info {
+    .projects__beta {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: $text-x-small;
+        font-weight: bold;
+        color: $white;
+        background-color: $black;
+        padding: 5px;
+        vertical-align: middle;
+        margin-left: 5px;
+    }
+
     h1 a {
         text-decoration: none;
 
