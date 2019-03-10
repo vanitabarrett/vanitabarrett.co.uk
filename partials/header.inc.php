@@ -30,7 +30,7 @@
     <?php
         include 'helpers/json_helper.php';
 
-        $pages = array('/' => 'Home','blogs' =>'Blog');
+        $pages = array('/' => 'Home','/blogs' =>'Blog');
     ?>
     <div class="wrapper">
         <header>
@@ -42,7 +42,7 @@
                     ?>
                         <?php if ($page == 'blogs') { ?>
                             <?php if (any_live_blogs()) { ?>
-                                <a <?php if ($_SERVER['REQUEST_URI'] === $page) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
+                                <a <?php if (strpos($_SERVER['REQUEST_URI'] === $page) !== false) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
                             <?php } ?>
                         <?php } else { ?>
                             <a <?php if ($_SERVER['REQUEST_URI'] === $page) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
