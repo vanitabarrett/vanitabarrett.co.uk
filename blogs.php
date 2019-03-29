@@ -30,6 +30,7 @@
 
         <div class="instagram__posts">
             <?php
+
                 foreach(instagramData() as $instagramPost) {
             ?>
                 <a class="instagram__post" href="<?= $instagramPost["link"] ?>" rel="external">

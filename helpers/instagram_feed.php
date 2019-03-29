@@ -10,8 +10,12 @@ function instagramData() {
     $json_link="https://api.instagram.com/v1/users/self/media/recent/?";
     $json_link.="access_token={$access_token}&count={$photo_count}";
 
-    $instagramFeedJson = file_get_contents($json_link);
-    $instagramFeed = json_decode($instagramFeedJson, true);
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $json_link);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $output = curl_exec($ch);
+
+    $instagramFeed = json_decode($output, true);
 
     return $instagramFeed["data"];
 }
@@ -24,8 +28,11 @@ function instagramProfile() {
 
   $json_link="https://api.instagram.com/v1/users/self/?access_token={$access_token}";
 
-  $instagramUserJson = file_get_contents($json_link);
-  $instagramUser = json_decode($instagramUserJson, true);
+  $ch = curl_init();
+  curl_setopt($ch, CURLOPT_URL, $json_link);
+  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+  $output = curl_exec($ch);
+  $instagramUser = json_decode($output, true);
 
   return $instagramUser["data"];
 }
