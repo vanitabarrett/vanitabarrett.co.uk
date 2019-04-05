@@ -28,6 +28,16 @@
 
     h1 {
       margin: 0;
+      font-size: $heading1;
+    }
+
+    h2 {
+      font-size: $heading2;
+    }
+
+    h3 {
+      font-size: $heading3;
+      margin-top: $spacing-full;
     }
 
     figure {
