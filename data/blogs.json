@@ -9,6 +9,13 @@
             "status": "live"
         },
         {
+            "id": "first_time_tech_lead",
+            "title": "Becoming a Tech Lead",
+            "description": "I recently spent 3 months as the tech lead of a development team on GOV.UK. The was the first time I had taken on the tech lead role, so I had a lot to learn and it definitely had it's challenges. This post condenses down everything I learnt and will hopefully be a useful guide for any other new tech leads out there!",
+            "keywords": "tech, lead, tech lead, leadership, first, new, leader",
+            "status": "draft"
+        },
+        {
             "id": "",
             "title": "Test Title",
             "description": "This is a description",
