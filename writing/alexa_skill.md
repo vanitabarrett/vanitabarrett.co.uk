@@ -8,7 +8,7 @@ In the first firebreak of 2018, I decided to work on a skill I’d been meaning 
 
 I’d heard a lot about how easy and quick it is to develop an Alexa skill. However, I found my normal development practices were restricted which made the process more complicated for me.
 
-##1. Developing with restricted testing is difficult
+## 1. Developing with restricted testing is difficult
 
 As a developer, I rely heavily on testing my code as I go along. Day-to-day, I’m regularly printing out responses and function returns to double check all steps in my code are working as expected. However, when developing an Alexa skill, although you’re able to test the logic locally, in order to check the skill as a whole you have to upload it and test it through the Alexa Developer Portal. This isn’t difficult, but slows down the development process, especially when making small refactoring changes.
 
@@ -24,7 +24,7 @@ The Alexa Developer Portal testing environment doesn’t give you useful error m
   <figcaption>Testing interface in AWS Lambda</figcaption>
 </figure>
 
-##2. Well organised documentation is arguably more important than thorough documentation
+## 2. Well organised documentation is arguably more important than thorough documentation
 No one can accuse Amazon or AWS (Amazon Web Services) documentation of not being thorough, but can be almost impossible to find what you need.
 
 <figure>
@@ -48,7 +48,7 @@ When trying to explain how to achieve something in code, try and use an example.
 You test your applications with end users - why not documentation? This doesn’t have to involve recruiting external people for user testing, simply try testing it out on other people within your company that don’t have any prior knowledge. Set up a quick task for your users to complete, provide them with the documentation and see how they get on. This is a quick way to identify problems which you, as an expert user, might have missed.
 
 
-##3. It is important to test all possible user scenarios
+## 3. It is important to test all possible user scenarios
 Although it’s not necessary to own an Alexa device to develop a skill, I found it really helped when it came to testing. Although the Alexa Developer Portal is great for testing responses, it’s more tricky to test Amazon’s default intents (open; help; stop; cancel) and the edge-cases. For this, I used the beta testing option to enable the skill on my Alexa device. Luckily I did, because I actually had a bug which prevented the skill from opening!
 
 It’s also important to note that the certification criteria for publishing your skill is quite strict and you don't get an immediate response once you submit your skill - it normally takes 1-2 days. I was required to rename the invocation name from “UK Bank Holidays” to “U.K. Bank Holidays” to ensure the pronunciation was as expected. Try and [check everything](https://developer.amazon.com/docs/custom-skills/certification-requirements-for-custom-skills.html) before you submit to avoid any back-and-forth with your submission.
