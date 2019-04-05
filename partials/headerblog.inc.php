@@ -14,8 +14,8 @@
 
     <meta charset="utf-8" >
     <meta property="og:title" content="<?= $blog["metadata"]["title"] ?> | Vanita Barrett" />
-    <meta property="og:image" content="<?= $blog["metadata"]["title"] ?> | Vanita Barrett" />
-    <meta property="og:description" content="https://vanitabarrett.co.uk/writing/images/<?= $blog["metadata"]["id"] ?>.png" />
+    <meta property="og:image" content="https://vanitabarrett.co.uk/writing/images/<?= $blog["metadata"]["id"] ?>.png" />
+    <meta property="og:description" content="<?= $blog["metadata"]["description"] ?>" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@v_barrett" />
