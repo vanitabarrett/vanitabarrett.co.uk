@@ -2,7 +2,7 @@
 
 # Becoming a Tech Lead for the first time
 
-I recently spent 3 months as the tech lead of a development team on GOV.UK. The was the first time I had taken on the tech lead role, so I had a lot to learn and, as a frontend developer leading what turned out to be a mostly backend development team, it definitely had its challenges. I’ve tried to condense down everything I learnt during this time, both as a reference point for myself and to hopefully help other new tech leads.
+I recently spent 3 months as the tech lead of a development team on GOV.UK. This was the first time I had taken on the tech lead role, so I had a lot to learn and, as a frontend developer leading what turned out to be a mostly backend development team, it definitely had its challenges. I’ve tried to condense down everything I learnt during this time, both as a reference point for myself and to hopefully help other new tech leads.
 
 ## Can a frontend developer be the tech lead of a primarily backend team?
 
@@ -46,7 +46,7 @@ Being a tech lead for the first time is challenging and it’s understandable th
 
 **If you don’t understand what is expected of you:**
 - Talk to the product people in your team. Make it clear that this is the first time you have taken on the role and you need some guidance on what they need from you.
-- Talk to the developers in your team. What do feel like they need from you as a tech lead? What would be most helpful to them? If you know they have leadership experience, try asking for tips.
+- Talk to the developers in your team. What do they feel like they need from you as a tech lead? What would be most helpful to them? If you know they have leadership experience, try asking for tips.
 
 **If your workload is becoming unmanageable:**
 - Talk to the project or delivery manager. It could be that the team has become so big that you need more than one tech lead to coordinate the developers and/or streams of work.
@@ -54,5 +54,5 @@ Being a tech lead for the first time is challenging and it’s understandable th
 
 **Generally:**
 - Talk to your colleagues who are or have previously been tech leads. They can share their own experiences, what they’ve learnt in the role, and should be able to give you some advice.
-- If you don’t know anyone else who has been a tech lead, try setting up a community for tech leads in your company Have regular meetings where you discuss what you’ve all learnt. This could be a great forum for getting impartial advice on specific problems.
+- If you don’t know anyone else who has been a tech lead, try setting up a community for tech leads in your company. Have regular meetings where you discuss what you’ve all learnt. This could be a great forum for getting impartial advice on specific problems.
 - Ask for feedback. When you feel like you’re doing a bad job, asking for feedback is probably the last thing you feel like doing. But remember that you’re often your own worst critic! You’re likely to be pleasantly surprised at the feedback you receive, and you can learn from the improvements that people suggest.
