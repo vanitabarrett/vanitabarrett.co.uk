@@ -22,6 +22,7 @@ function live_blogs() {
         }
     }
 
+    rsort($live_blogs);
     return $live_blogs;
 }
 

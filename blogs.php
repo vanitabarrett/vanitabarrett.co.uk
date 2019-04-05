@@ -11,6 +11,7 @@
     ?>
         <div class="blogs__item__text">
             <a class="blogs__item" href="/blog/<?= $blog['id'] ?>"><h2><?= $blog['title'] ?></h2></a>
+            <p class="blogs__date">Published <?= $blog['published_date'] ?></p>
             <p><?= $blog['description'] ?></p>
         </div>
     <?php

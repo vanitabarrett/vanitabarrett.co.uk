@@ -1,16 +1,17 @@
 .blogs {
     .blogs__item {
         display: block;
-        margin: $spacing-full 0 $spacing-two-thirds 0;
+        margin: $spacing-full 0 0 0;
 
-        .blogs__item__text {
-            display: inline-block;
-            vertical-align: top;
-
-            h2 {
-                margin-top: $spacing-one-third / 2;
-            }
+        h2 {
+            margin-top: $spacing-one-third / 2;
+            margin-bottom: 0;
         }
+    }
+
+    .blogs__date {
+        font-size: $text-small;
+        margin: 0;
     }
 }
 
