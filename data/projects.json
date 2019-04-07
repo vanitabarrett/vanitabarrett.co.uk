@@ -42,6 +42,25 @@
             ]
         },
         {
+            "name": "Denmark Street Big Band",
+            "abbr": "bigband",
+            "job-role": "Web Designer",
+            "url": "https://denmarkstreetbigband.co.uk/",
+            "clean_url": "denmarkstreetbigband.co.uk",
+            "summary": "Re-design of an outdated Wordpress site for Denmark Street Big Band.",
+            "description": "Denmark Street Big Band had been using the same Wordpress template which didn't fit their needs as it didn't let them highlight the most important information on the homepage. The workarounds which had to be used were cluttering up the page and making it very difficult to make sense of. This redesign puts information in priority order on the page, with a custom slideshow at the top so that band leader, Paul Burch, can specify what to feature at the top. There is also a renewed focus on the band's music, making their Youtube videos and Soundcloud recordings more prominent.",
+            "images": [
+                {
+                "name": "bigband.png",
+                "alt_text": "An image of the Denmark Street Big Band homepage. The website has a bold black, red and white colour scheme. It highlights upcoming shows, latest news and videos."
+                },
+                {
+                    "name": "bigband1.png",
+                    "alt_text": "An image of the Denmark Steet Big Band video homepage. Shows a grid of video thumbnails."
+                    }
+            ]
+        },
+        {
             "name": "A secure cognitive behavioural therapy application",
             "abbr": "moodjar",
             "job-role": "Software Developer (Web and Android)",
