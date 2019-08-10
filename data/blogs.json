@@ -19,11 +19,12 @@
             "status": "live"
         },
         {
-            "id": "",
-            "title": "Test Title",
-            "description": "This is a description",
-            "keywords": "",
-            "status": "draft"
+            "id": "to_do_list",
+            "published_date": "10th August 2019",
+            "title": "Want to improve your to-do list? Delete it.",
+            "description": "This August, I deleted 80% of my to-do list. ",
+            "keywords": "to-do, to do, list, social media, phone, use, usage, apps",
+            "status": "live"
         }
     ]
 }
