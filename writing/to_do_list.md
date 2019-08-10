@@ -10,7 +10,7 @@ My to-do list quickly filled up with tasks, from the mundane and repeatable (iro
 
 There were two main problems:
 
-1. My to-do list was too large. It was difficult to prioritise and looking at it made me demotivated.
+1. My to-do list was too large. It was difficult to prioritise and looking at it made me demotivated. I constantly felt ashamed that I wasn't achieving enough. I would feel guilty going out with friends or wasting as little as 5 minutes having a chat with a colleague, when I could have spent that time ticking one more thing off my list.
 2. Having such a comprehensive to-do list meant I wasn’t encouraged to properly look and engage with the world around me. Instead, I relied on my phone to tell me what to do.
 
 ## So, what have I done?
