@@ -32,11 +32,11 @@
         <p>Share on:</p>
         <ul>
           <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>">Facebook</a></li>
-          <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>&title=<?= $blog["metadata"]["title"] ?>&summary=<?= $blog["metadata"]["description"] ?>">LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>">LinkedIn</a></li>
           <?php if ($blog["metadata"]["medium_link"]) { ?>
             <li><a href="<?= $blog["metadata"]["medium_link"] ?>">Medium</a></li>
           <?php } ?>
-          <li><a href="https://twitter.com/home?status=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>" >Twitter</a></li>
+          <li><a href="https://twitter.com/intent/tweet?text=<?= $blog["metadata"]["title"] ?>&url=https://vanitabarrett.co.uk/blog/<?= $blog["metadata"]["id"] ?>" >Twitter</a></li>
         </ul>
       </div>
     </aside>
