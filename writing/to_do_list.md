@@ -38,6 +38,8 @@ I made all of the above changes in one evening and went to bed feeling very pani
 
 For the first few days, I would instinctively pick up my phone if I had some free time at work. Now, I barely touch my phone all day and my social media usage has decreased dramatically.
 
-Generally, I feel more free to decide what I do with my time. I no longer feel restricted by my to-do list, and don’t feel guilty for going out rather than working my way through a checklist.
+Generally, I feel more free to decide what I do with my time. I no longer feel restricted by my to-do list, and don’t feel guilty for going out rather than working my way through a checklist. I value the time I spend with my friends and family more as I can immerse myself in the moment without being distracted by near-constant notifications.
+
+I've increased in confidence: in the last week I've felt able to relax and chat with colleagues, send a few out-of-the-blue messages to distant friends without second-guessing myself, and signed up to volunteer for a charity after work.
 
 I still need to consciously stop myself reaching for my phone when I think of something I need to do in the near future, but so far I’ve avoided falling back into the same old habits.
