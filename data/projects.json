@@ -33,11 +33,28 @@
             "images": [
                 {
                     "name": "vawedding.png",
-                    "alt_text": "An image of the website landing page. A background of wedding flowers on a table. The page contains an input field that asks for an RSVP code to login to the website."
+                    "alt_text": "An image of the website landing page. The page contains an input field that asks for an RSVP code to login to the website."
                 },
                 {
                     "name": "vawedding1.png",
-                    "alt_text": "An image of the website RSVP form. It contains a form asking each person if they will attend and their email address for updates."
+                    "alt_text": "An image of the website homepage (after logging in). It contains a picture of Vanita and Andy, information on the venue, and a menu bar to navigation to pages about food options, RSVP, music and gifts."
+                }
+            ]
+        },
+        {
+            "name": "Siyan",
+            "abbr": "siyan",
+            "job-role": "Web Designer",
+            "summary": "Website redesign for a leading design and lighting rental company.",
+            "description": "Siyan's existing website wasn't doing a good job of showcasing what the company do and the events they are involved in. On top of that, the website performed poorly from an accessibility point-of-view, with extremely low colour contrast that in places made the text impossible to read. With a logo and colour scheme, I created a site that better reflects Siyan's branding. Site developed by <a href=\"https://andyms.uk\">Andy Smith</a>",
+            "images": [
+                {
+                    "name": "siyan.png",
+                    "alt_text": "Image of Siyan homepage, with cookie consent banner and live video header (with button to pause and play)."
+                },
+                {
+                    "name": "siyan1.png",
+                    "alt_text": "Image of Siyan 'What We Do' page, e.g: Concert Touring and Live Music; Rigging; Dry Hire."
                 }
             ]
         },
