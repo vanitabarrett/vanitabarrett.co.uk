@@ -1,6 +1,28 @@
 {
     "projects": [
         {
+            "name": "GOV.UK",
+            "ongoing": true,
+            "abbr": "govuk",
+            "job-role": "Frontend Developer",
+            "summary": "Building new templates, enhancing accessibility, and working with other frontend developers to consolidate and improve the frontend architecture across the UK government website.",
+            "description": "Primarily, my role as a frontend developer on GOV.UK involves building new templates and components, taking outcomes from user research and accessibility audits and turning them into actionable developer stories, enhancing the accessibility of GOV.UK and working with other frontend developers to consolidate and improve the frontend architecture across GOV.UK.<br /><br />In my time so far at GDS I have, among other things, built new topic pages to surface the sitewide taxonomy, converted hardcoded layouts into reusable, accessible, tested components, and led the frontend development of an EU Exit page for UK Citizens.",
+            "url": "https://www.gov.uk",
+            "clean_url": "gov.uk",
+            "repo": "https://github.com/alphagov",
+            "skills": "HTML, SASS, BEM, JavaScript, jQuery, Ruby on Rails, Mustache, Jasmine, RSpec, MiniTest",
+            "images": [
+                {
+                    "name": "govuk.png",
+                    "alt_text": "An image of www.gov.uk/prepare-eu-exit. This page was developed in the lead up to the EU Exit vote, to inform UK citizens of the content on GOV.UK related to EU Exit that may be of interest."
+                },
+                {
+                    "name": "govuk1.png",
+                    "alt_text": "An image of www.gov.uk/education, which surfaces content tagged to 'Education' in  the GOV.UK taxonomy."
+                }
+            ]
+        },
+        {
             "name": "Wedding Website",
             "ongoing": true,
             "abbr": "vawedding",
@@ -20,24 +42,20 @@
             ]
         },
         {
-            "name": "GOV.UK",
-            "ongoing": true,
-            "abbr": "govuk",
-            "job-role": "Frontend Developer",
-            "summary": "Building new templates, enhancing accessibility, and working with other frontend developers to consolidate and improve the frontend architecture across the UK government website.",
-            "description": "Primarily, my role as a frontend developer on GOV.UK involves building new templates and components, taking outcomes from user research and accessibility audits and turning them into actionable developer stories, enhancing the accessibility of GOV.UK and working with other frontend developers to consolidate and improve the frontend architecture across GOV.UK.<br /><br />In my time so far at GDS I have, among other things, built new topic pages to surface the sitewide taxonomy, converted hardcoded layouts into reusable, accessible, tested components, and led the frontend development of an EU Exit page for UK Citizens.",
-            "url": "https://www.gov.uk",
-            "clean_url": "gov.uk",
-            "repo": "https://github.com/alphagov",
-            "skills": "HTML, SASS, BEM, JavaScript, jQuery, Ruby on Rails, Mustache, Jasmine, RSpec, MiniTest",
+            "name": "List Management Application",
+            "abbr": "books",
+            "job-role": "Owner, Designer and Developer",
+            "summary": "Design and build of a web application to track progress against various lists, in this case: <a href=\"https://www.listchallenges.com/1001-books-you-must-read-before-you-die\">1001 Books to Read Before You Die (2008 edition)</a>, UNESCO world heritage sites, and countries in the world.",
+            "description": "The site uses a populated database of all 1001 books, UNESCO world heritage sites and countries, as well as providing the option for user-specified additions. A user can mark an item as 'Wishlist', 'Not Started', 'In Progress' or 'Completed'. The application has been built in an expandable way, using EJS components and generalised logic so adding a new list is relatively simple.",
+            "skills": "HTML5, SCSS, JavaScript, MySQL, NodeJS, EJS, SVG (for interactive world map), ChartJS",
             "images": [
                 {
-                    "name": "govuk.png",
-                    "alt_text": "An image of www.gov.uk/prepare-eu-exit. This page was developed in the lead up to the EU Exit vote, to inform UK citizens of the content on GOV.UK related to EU Exit that may be of interest."
+                    "name": "books1.png",
+                    "alt_text": "Image of travel landing page. Shows an interactive SVG map, where visited countries have been highlighted in orange and a user can mouse over a country and the country name is displayed as a label."
                 },
                 {
-                    "name": "govuk1.png",
-                    "alt_text": "An image of www.gov.uk/education, which surfaces content tagged to 'Education' in  the GOV.UK taxonomy."
+                    "name": "books2.png",
+                    "alt_text": "Image of a books list page. Shows a table of books filtered to the author 'Virginia Woolf', and demonstrating that a user is able to click a table entry to edit it."
                 }
             ]
         },
@@ -106,24 +124,6 @@
                 {
                     "name": "sushilab2.png",
                     "alt_text": "Sushi Lab services page design."
-                }
-            ]
-        },
-        {
-            "name": "Book Management Application",
-            "abbr": "books",
-            "job-role": "Owner, Designer and Developer",
-            "summary": "Design and build of a web application to track reading over a long period of time. A user can monitor their progress against the <a href=\"https://www.listchallenges.com/1001-books-you-must-read-before-you-die\">1001 Books to Read Before You Die (2008 edition)</a>.",
-            "description": "The site uses a populated database of all 1001 books which can be marked as 'Yet to be Started', 'In Progress' and 'Completed'. Books outside this list can also be recorded - the homepage dashboard shows progress plotted for both list and non-list books.",
-            "skills": "HTML5, SCSS, jQuery, Flot Graphs for jQuery, MySQL, PHP",
-            "images": [
-                {
-                    "name": "books1.png",
-                    "alt_text": "Image of landing page. Shows stats on how many books have been read, both out of the 1001 list and in general."
-                },
-                {
-                    "name": "books2.png",
-                    "alt_text": "Image of the 1001 Books List page. Shows a table of book titles, authors, status and date completed."
                 }
             ]
         }
