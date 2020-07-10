@@ -1,5 +1,4 @@
 <?php
-    include 'helpers/instagram_feed.php';
     require_once('partials/header.inc.php');
 ?>
 
@@ -19,6 +18,10 @@
     ?>
 
     <div class="instagram">
+        <a class="instagram__follow" href="https://www.instagram.com/thisgirlcodes/" rel="external">Follow me on Instagram</a>
+    </div>
+
+    <!--<div class="instagram">
         <div class="instagram__user">
             <?php $instagramUser = instagramProfile(); ?>
             <img class="instagram__pp" src="<?= $instagramUser["profile_picture"] ?>" />
@@ -45,7 +48,7 @@
                 }
             ?>
         </div>
-    </div>
+    </div>-->
 </div>
 
 <?php
