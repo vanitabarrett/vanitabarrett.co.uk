@@ -23,6 +23,25 @@
             ]
         },
         {
+            "name": "Wedding Website",
+            "ongoing": true,
+            "abbr": "vawedding",
+            "job-role": "Designer and Frontend Developer",
+            "summary": "Design and build of a wedding website, primarily for guest RSVP.",
+            "description": "Design and build of a wedding website, tying in with the colour scheme (navy, burgundy, neutrals and gold). The website will allow guests to view details of the wedding day; RSVP; choose food options; view the gift list; suggest music.",
+            "skills": "HTML, SASS, BEM, JavaScript",
+            "images": [
+                {
+                    "name": "vawedding.png",
+                    "alt_text": "An image of the website landing page. The page contains an input field that asks for an RSVP code to login to the website."
+                },
+                {
+                    "name": "vawedding1.png",
+                    "alt_text": "An image of the website homepage (after logging in). It contains a picture of Vanita and Andy, information on the venue, and a menu bar to navigation to pages about food options, RSVP, music and gifts."
+                }
+            ]
+        },
+        {
             "name": "GOV.UK",
             "abbr": "govuk",
             "job-role": "Frontend Developer",
@@ -40,25 +59,6 @@
                 {
                     "name": "govuk1.png",
                     "alt_text": "An image of www.gov.uk/education, which surfaces content tagged to 'Education' in  the GOV.UK taxonomy."
-                }
-            ]
-        },
-        {
-            "name": "Wedding Website",
-            "ongoing": true,
-            "abbr": "vawedding",
-            "job-role": "Designer and Frontend Developer",
-            "summary": "Design and build of a wedding website, primarily for guest RSVP.",
-            "description": "Design and build of a wedding website, tying in with the colour scheme (navy, burgundy, neutrals and gold). The website will allow guests to view details of the wedding day; RSVP; choose food options; view the gift list; suggest music.",
-            "skills": "HTML, SASS, BEM, JavaScript",
-            "images": [
-                {
-                    "name": "vawedding.png",
-                    "alt_text": "An image of the website landing page. The page contains an input field that asks for an RSVP code to login to the website."
-                },
-                {
-                    "name": "vawedding1.png",
-                    "alt_text": "An image of the website homepage (after logging in). It contains a picture of Vanita and Andy, information on the venue, and a menu bar to navigation to pages about food options, RSVP, music and gifts."
                 }
             ]
         },
