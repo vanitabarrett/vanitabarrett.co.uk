@@ -3,7 +3,7 @@
 ?>
 
 <div class="intro max-width">
-    <p>I'm a Web Developer, based in London. I work as a <span class="intro-em">Frontend Developer</span> at <a href="https://gds.blog.gov.uk/" rel="external" class="intro-em">Government Digital Service</a>, helping make <a href="https://gov.uk" rel="external" class="intro-em">GOV.UK</a> better for users.</p>
+    <p>I'm a Web Developer, based in London. I work as a <span class="intro-em">Senior Frontend Developer</span> at <a href="https://gds.blog.gov.uk/" rel="external" class="intro-em">Government Digital Service</a>, working on the <a href="https://www.gov.uk/design-system" rel="external" class="intro-em">GOV.UK Design System</a>.</p>
 
     <?php
         if (any_live_blogs()) {

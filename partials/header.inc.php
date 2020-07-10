@@ -13,20 +13,20 @@
     <title>Vanita Barrett: Web Developer</title>
     <meta charset="utf-8" >
     <meta property="og:title" content="Vanita Barrett: Web Developer" />
-    <meta property="og:description" content="Vanita Barrett: Web Developer portfolio. Currently Frontend Developer at Government Digital Service." />
+    <meta property="og:description" content="Vanita Barrett: Web Developer portfolio. Currently working as a Senior Frontend Developer at Government Digital Service." />
     <meta property="og:image" content="https://vanitabarrett.co.uk/logo.png" />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@v_barrett" />
     <meta name="twitter:title" content="Vanita Barrett: Web Developer" />
-    <meta name="twitter:description" content="Vanita Barrett: Web Developer portfolio. Currently Frontend Developer at Government Digital Service." />
+    <meta name="twitter:description" content="Vanita Barrett: Web Developer portfolio. Currently working as a Senior Frontend Developer at Government Digital Service." />
     <meta name="twitter:image" content="https://vanitabarrett.co.uk/logo.png" />
 
     <meta name="author" content="Vanita Barrett">
 
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="vanita, barrett, vanita barrett, website, developer, designer, web, surrey, university, portfolio, frontend, frontend developer, gds, govuk" />
-    <meta name="description" content="Vanita Barrett: Web Developer portfolio. Currently Frontend Developer at Government Digital Service." />
+    <meta name="description" content="Vanita Barrett: Web Developer portfolio. Currently working as a Senior Frontend Developer at Government Digital Service." />
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
 
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />

@@ -26,7 +26,7 @@
     <aside>
       <div class="about">
         <h2>About</h2>
-        <p>I'm a Web Developer, based in London. I work as a Frontend Developer at Government Digital Service, helping make GOV.UK better for users.</p>
+        <p>I'm a Web Developer, based in London. I work as a Senior Frontend Developer at Government Digital Service (GDS).</p>
       </div>
       <div class="share-links">
         <p>Share on:</p>
