@@ -26,12 +26,13 @@
 </nav>
 
 <div class="project-info max-width">
-    <h1>Project: <?= $project['name'] ?>
+    <h1>
+        <?php if (isset($project['ongoing'])) { ?>
+            <span class="projects__beta">Ongoing</span></br>
+        <?php } end ?>
+        Project: <?= $project['name'] ?>
         <?php if (isset($project['url'])) { ?>
             <a href="<?= $project['url'] ?>" rel="external">(<?= $project['clean_url'] ?>)</a>
-        <?php } end ?>
-        <?php if (isset($project['ongoing'])) { ?>
-            <span class="projects__beta">Ongoing</span>
         <?php } end ?>
     </h1>
 
