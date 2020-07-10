@@ -1,8 +1,29 @@
 {
     "projects": [
         {
-            "name": "GOV.UK",
+            "name": "GOV.UK Design System",
             "ongoing": true,
+            "abbr": "govuk",
+            "job-role": "Senior Frontend Developer",
+            "summary": "Working on the GOV.UK Design System, which is used by GOV.UK and other services across government.",
+            "description": "",
+            "url": "https://www.gov.uk/design-system",
+            "clean_url": "gov.uk/design-system",
+            "repo": "https://github.com/alphagov",
+            "skills": "HTML, SASS, BEM, JavaScript, Nunjucks, Jest",
+            "images": [
+                {
+                    "name": "govuk.png",
+                    "alt_text": "An image of www.gov.uk/prepare-eu-exit. This page was developed in the lead up to the EU Exit vote, to inform UK citizens of the content on GOV.UK related to EU Exit that may be of interest."
+                },
+                {
+                    "name": "govuk1.png",
+                    "alt_text": "An image of www.gov.uk/education, which surfaces content tagged to 'Education' in  the GOV.UK taxonomy."
+                }
+            ]
+        },
+        {
+            "name": "GOV.UK",
             "abbr": "govuk",
             "job-role": "Frontend Developer",
             "summary": "Building new templates, enhancing accessibility, and working with other frontend developers to consolidate and improve the frontend architecture across the UK government website.",
