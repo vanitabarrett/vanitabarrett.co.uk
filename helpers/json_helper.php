@@ -2,8 +2,20 @@
 
 function projects() {
     $project_file = file_get_contents("data/projects.json");
-    return json_decode($project_file, true);
+    $project_json = json_decode($project_file, true);
+
+    return usort($project_json, "sortByOngoing");;
 }
+
+function sortByOngoing($a, $b){
+    if ($a['ongoing'] == true) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+usort($data, "sortBySize");
 
 function blogs() {
     $blogs_file = file_get_contents("data/blogs.json");
