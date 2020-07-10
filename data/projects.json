@@ -33,11 +33,11 @@
             "images": [
                 {
                     "name": "vawedding.png",
-                    "alt_text": "An image of the website landing page. The page contains an input field that asks for an RSVP code to login to the website."
+                    "alt_text": "An image of the website homepage (after logging in). It contains a picture of Vanita and Andy, information on the venue, and a menu bar to navigate to pages about food options, RSVP, music and gifts."
                 },
                 {
                     "name": "vawedding1.png",
-                    "alt_text": "An image of the website homepage (after logging in). It contains a picture of Vanita and Andy, information on the venue, and a menu bar to navigation to pages about food options, RSVP, music and gifts."
+                    "alt_text": "An image of the timeline/order of the day page, which shows rough timings and icons for things like ceremony, drinks and canapes, and dinner."
                 }
             ]
         },
@@ -46,7 +46,7 @@
             "abbr": "govuk",
             "job-role": "Frontend Developer",
             "summary": "Building new templates, enhancing accessibility, and working with other frontend developers to consolidate and improve the frontend architecture across the UK government website.",
-            "description": "Primarily, my role as a frontend developer on GOV.UK involves building new templates and components, taking outcomes from user research and accessibility audits and turning them into actionable developer stories, enhancing the accessibility of GOV.UK and working with other frontend developers to consolidate and improve the frontend architecture across GOV.UK.<br /><br />In my time so far at GDS I have, among other things, built new topic pages to surface the sitewide taxonomy, converted hardcoded layouts into reusable, accessible, tested components, and led the frontend development of an EU Exit page for UK Citizens.",
+            "description": "<p>Primarily, my role as a frontend developer on GOV.UK involved building new templates and components, taking outcomes from user research and accessibility audits and turning them into actionable developer stories, enhancing the accessibility of GOV.UK and working with other frontend developers to consolidate and improving the frontend architecture across GOV.UK</p><p>In my time on GOV.UK I worked on multiple teams focusing on different areas of the site, including:<li>ensuring GOV.UK meets the international WCAG 2.1 AA accessibility standard</li><li>leading teams developing a business-focused tool for EU Exit and improving email notifications</li><li>heavily involved in the build and iteration of Brexit/Transition and Coronavirus campaign pages</li><li>leading development of gov.uk/ask (now offline) during the COVID-19 crisis</li><li>a new site-wide cookie consent mechanism</li></p>",
             "url": "https://www.gov.uk",
             "clean_url": "gov.uk",
             "repo": "https://github.com/alphagov",
@@ -54,11 +54,11 @@
             "images": [
                 {
                     "name": "govuk.png",
-                    "alt_text": "An image of www.gov.uk/prepare-eu-exit. This page was developed in the lead up to the EU Exit vote, to inform UK citizens of the content on GOV.UK related to EU Exit that may be of interest."
+                    "alt_text": "An image of a GOVUK organisation homepage. Each organisation which used to have a separate website has been transitioned over to GOVUK and now publishes their content on GOV.UK."
                 },
                 {
                     "name": "govuk1.png",
-                    "alt_text": "An image of www.gov.uk/education, which surfaces content tagged to 'Education' in  the GOV.UK taxonomy."
+                    "alt_text": "An image of the GOVUK Brexit/Transition campaign page, to help give users information on what they need to do (if anything) in the run-up to the UK leaving the EU."
                 }
             ]
         },
@@ -71,11 +71,11 @@
             "images": [
                 {
                     "name": "siyan.png",
-                    "alt_text": "Image of Siyan homepage, with cookie consent banner and live video header (with button to pause and play)."
+                    "alt_text": "Image of Siyan contact page, with embedded Google map and sitewide cookie banner."
                 },
                 {
                     "name": "siyan1.png",
-                    "alt_text": "Image of Siyan 'What We Do' page, e.g: Concert Touring and Live Music; Rigging; Dry Hire."
+                    "alt_text": "Image of Siyan inventory page, with image links to different inventory stock."
                 }
             ]
         },
@@ -88,12 +88,12 @@
             "skills": "HTML5, SCSS, JavaScript, MySQL, NodeJS, EJS, SVG (for interactive world map), ChartJS",
             "images": [
                 {
-                    "name": "books1.png",
-                    "alt_text": "Image of travel landing page. Shows an interactive SVG map, where visited countries have been highlighted in orange and a user can mouse over a country and the country name is displayed as a label."
+                    "name": "books.png",
+                    "alt_text": "Image of books landing page. Shows stats for how many list and non-list books have been read and a line chart of the number of books read each year. Also has the ability to view a completion report and add new books to a wishlist."
                 },
                 {
                     "name": "books2.png",
-                    "alt_text": "Image of a books list page. Shows a table of books filtered to the author 'Virginia Woolf', and demonstrating that a user is able to click a table entry to edit it."
+                    "alt_text": "Image of travel landing page. Shows an interactive SVG map, where visited countries have been highlighted in orange and a user can mouse over a country and the country name is displayed as a label."
                 }
             ]
         },
