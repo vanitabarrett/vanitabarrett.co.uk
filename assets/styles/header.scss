@@ -13,6 +13,11 @@ body {
 
         .web-title {
             color: $white;
+
+            &:focus {
+                outline: 0;
+                border-bottom: 2px solid;
+            }
         }
 
         .web-title--capital {

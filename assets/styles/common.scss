@@ -27,8 +27,14 @@ h2 {
 a {
     color: $red;
 
-    &:hover, &:focus, &:visited {
+    &:hover, &:visited {
         color: $red-highlight;
+    }
+
+    &:focus {
+        outline: 0;
+        background-color: $black;
+        color: $white;
     }
 }
 

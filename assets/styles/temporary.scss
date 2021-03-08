@@ -40,4 +40,11 @@ body {
 
 .temp-container__social {
   margin-top: $spacing-full;
+
+  a:focus {
+    outline: 0;
+    svg {
+      fill: $black;
+    }
+  }
 }
