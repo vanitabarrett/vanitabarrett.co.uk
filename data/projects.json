@@ -47,8 +47,6 @@
             "job-role": "Owner, Designer and Developer",
             "summary": "Website design and build for an online greetings card retail company, with Etsy integration.",
             "description": "Website for a new online greetings card company. Uses the Etsy API to fetch products to list - these are categorised automatically using Etsy tags. Users can click-through to Etsy to purchase items. Site has a GDPR-compliant cookie banner for accepting or rejecting Google Analytics cookies. Site developed alongside <a href=\"https://andyms.uk\">Andy Smith</a>",
-            "url": "https://www.roseatecards.co.uk",
-            "clean_url": "roseatecards.co.uk",
             "repo": "https://github.com/roseatecards.co.uk",
             "skills": "HTML, SASS, TypeScript, Schema.org, Next.js, Etsy API Integration",
             "images": [
