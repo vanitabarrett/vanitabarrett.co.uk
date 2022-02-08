@@ -6,9 +6,13 @@
   "dependencies": {
     "node-sass": "6.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
   "scripts": {
-    "build-sass": "node-sass assets/styles/site.scss assets/styles/build/styles.css"
+    "build-sass": "node-sass assets/styles/site.scss assets/styles/build/styles.css",
+    "build": "./node_modules/.bin/eleventy",
+    "start": "./node_modules/.bin/eleventy --serve"
   },
   "repository": {
     "type": "git",
