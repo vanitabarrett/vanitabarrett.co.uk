@@ -21,7 +21,11 @@ layout: 'layouts/base'
 
     <div class="projects max-width">
         <h1>Projects</h1>
-        <ol class="projects__list"></ol>
+        <ol class="projects__list">
+            {% for project in collections.projects %}
+                <a href="">{{ project.data.title }}</a>
+            {% endfor %}
+        </ol>
     </div>
 
   </div>
