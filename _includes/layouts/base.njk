@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Vanita Barrett: Web Developer</title>
+    <title>{{ title }}</title>
     <meta charset="utf-8" >
     <meta property="og:title" content="Vanita Barrett: Web Developer" />
     <meta property="og:description" content="Vanita Barrett: Web Developer portfolio. Currently working as a Senior Frontend Developer at Government Digital Service." />
@@ -24,31 +24,10 @@
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/assets/styles/build/styles.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
   </head>
 
   <body>
-    <?php
-        include 'helpers/json_helper.php';
-
-        $pages = array('/' => 'Home','/blogs' =>'Blog');
-    ?>
-    <div class="wrapper">
-        <header>
-            <div class="max-width">
-                <a href="/" class="web-title" aria-label="Vanita Barrett"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
-                <nav aria-label="main page navigation">
-                    <?php
-                        foreach ($pages as $page => $title) {
-                    ?>
-                        <?php if ($page == 'blogs') { ?>
-                            <?php if (any_live_blogs()) { ?>
-                                <a <?php if (strpos($_SERVER['REQUEST_URI'] === $page) !== false) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
-                            <?php } ?>
-                        <?php } else { ?>
-                            <a <?php if ($_SERVER['REQUEST_URI'] === $page) print('class="nav--active"');?> href="<?= $page ?>" ><?= $title ?></a>
-                        <?php } ?>
-                    <?php } ?>
-                </nav>
-            </div>
-        </header>
+    {{ content | safe }}
+  </body>
+</html>
