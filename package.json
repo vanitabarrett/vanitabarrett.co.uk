@@ -10,7 +10,7 @@
     "@11ty/eleventy": "^1.0.0"
   },
   "scripts": {
-    "build-sass": "node-sass assets/styles/site.scss _site/assets/styles/styles.css",
+    "build-sass": "node-sass src/assets/styles/site.scss _site/assets/styles/styles.css",
     "build": "npm run build-sass && ./node_modules/.bin/eleventy",
     "start": "npm run build-sass && ./node_modules/.bin/eleventy --serve"
   },
