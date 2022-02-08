@@ -9,6 +9,6 @@ Clone the repo:
 Run `npm install` to install dependencies.
 
 ## Building SASS
-The project makes use of node-sass to build the SCSS into `assets/styles/build/styles.css` using the following command:
+The project makes use of node-sass to build the SCSS into `assets/styles/styles.css` using the following command:
 
 ```npm run build-sass```
