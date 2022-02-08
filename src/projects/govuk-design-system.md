@@ -1,6 +1,6 @@
 ---
-title: 'Vanita Barrett - Web Developer - GOV.UK Design System'
 layout: 'layouts/base'
+name: GOV.UK Design System
 tags:
   - projects
 start_date: 2020-07-06
