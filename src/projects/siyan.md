@@ -1,9 +1,16 @@
 ---
 layout: 'layouts/base'
 name: Siyan
+role: Designer
+summary: Website redesign for a leading design and lighting rental company.
 tags:
   - projects
-start_date:
+start_date: 01-01-2020
+end_date: 10-07-2020
 ---
 
-This is a test file
+# Projects: Siyan
+
+[siyan.co.uk](https://siyan.co.uk/)
+
+Siyan's existing website wasn't doing a good job of showcasing what the company do and the events they are involved in. On top of that, the website performed poorly from an accessibility point-of-view, with extremely low colour contrast that in places made the text impossible to read. With a logo and colour scheme, I created a site that better reflects Siyan's branding. Site developed by [Andy Smith](https://andyms.uk/)
