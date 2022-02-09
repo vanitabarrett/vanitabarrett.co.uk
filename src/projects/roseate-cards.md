@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: Roseate Cards
 role: Designer and Frontend Developer
 summary: Website design and build for an online greetings card retail company, with Etsy integration.

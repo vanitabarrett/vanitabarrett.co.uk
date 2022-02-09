@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: Sushi Lab
 role: Designer and Frontend Developer
 summary: Website design for a new quick-service sushi restaurant based in Guildford.

@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: List Management
 role: Owner, Designer and Developer
 summary: Design and build of a web application to track progress against various collections of list data.

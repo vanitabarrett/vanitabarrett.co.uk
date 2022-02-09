@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: GOV.UK
 role: Frontend Developer
 summary: Building new templates, enhancing accessibility, and working with other frontend developers to consolidate and improve the frontend architecture across the UK government website.

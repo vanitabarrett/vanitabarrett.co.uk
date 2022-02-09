@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: Castle Street Clinic
 role: Designer
 summary: Website redesign for an osteopathy clinic.

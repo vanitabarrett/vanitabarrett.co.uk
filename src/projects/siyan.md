@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: Siyan
 role: Designer
 summary: Website redesign for a leading design and lighting rental company.

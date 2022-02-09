@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: 'MoodJar: Cognitive Behavioural Therapy app'
 role: Website Developer and Android Developer
 summary: Application development exploring the use of secure technology to enhance communication between health professionals and patients within the health industry.

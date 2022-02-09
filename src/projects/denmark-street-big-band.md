@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: Denmark Street Big Band
 role: Designer
 summary: Re-design of an outdated Wordpress site for Denmark Street Big Band.

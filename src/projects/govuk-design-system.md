@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/base'
+layout: 'layouts/project'
 name: GOV.UK Design System
 role: Technical Lead & Senior Frontend Developer
 summary: Working on the GOV.UK Design System, which is used by GOV.UK and other services across government.
