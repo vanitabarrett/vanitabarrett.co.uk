@@ -23,7 +23,15 @@ layout: 'layouts/base'
         <h1>Projects</h1>
         <ol class="projects__list">
             {% for project in collections.projects %}
-                <a href="">{{ project.data.name }}</a>
+                <li class="projects__item">
+                    <h2><a href="/project/{{ project.data.slug }}">{{ project.data.name }}</a></h2>
+                        {% if not project.data.end_date %}
+                            <span class="projects__beta">Ongoing</span>
+                        {% endif %}
+
+                    <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
+                    <p class="projects__item__summary">{{ project.data.summary }}</p>
+                </li>
             {% endfor %}
         </ol>
     </div>
