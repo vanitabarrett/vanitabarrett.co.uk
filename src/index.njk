@@ -24,7 +24,7 @@ layout: 'layouts/base'
         <ol class="projects__list">
             {% for project in collections.projects %}
                 <li class="projects__item">
-                    <h2><a href="/project/{{ project.data.slug }}">{{ project.data.name }}</a></h2>
+                    <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
                         {% if not project.data.end_date %}
                             <span class="projects__beta">Ongoing</span>
                         {% endif %}
