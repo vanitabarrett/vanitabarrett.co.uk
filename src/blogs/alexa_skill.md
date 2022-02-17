@@ -3,6 +3,7 @@ layout: 'layouts/blog'
 id: alexa_skill
 name: 3 things I learnt from developing an Amazon Alexa skill
 summary: 'At the start of 2018 I decided to work on a skill I’d been meaning to try for a long time: writing an Alexa skill. I’d heard a lot of good things around developing Alexa skills, primarily how easy and quick it is to do. However, I found my normal development practices were restricted which made the process more complicated for me.'
+keywords: alexa, skill, development, coding, code, amazon alexa, firebreak
 tags:
   - blogs
 published_date: 10-03-2019

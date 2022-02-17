@@ -3,6 +3,7 @@ layout: 'layouts/blog'
 id: to_do_list
 name: Want to improve your to-do list? Delete it.
 summary: "This August, I deleted 80% of my to-do list. "
+keywords: to-do, to do, list, social media, phone, use, usage, apps, phone addiction, life lessons
 tags:
   - blogs
 published_date: 10-08-2019
