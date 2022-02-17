@@ -17,9 +17,7 @@ layout: 'layouts/base'
             {% for project in collections.ongoing_projects %}
                 <li class="projects__item">
                     <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
-                        {% if not project.data.end_date %}
-                            <span class="projects__beta">Ongoing</span>
-                        {% endif %}
+                    <span class="projects__beta">Ongoing</span>
 
                     <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
                     <p class="projects__item__summary">{{ project.data.summary }}</p>
@@ -30,9 +28,6 @@ layout: 'layouts/base'
                 {% if project.data.end_date %}
                     <li class="projects__item">
                         <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
-                            {% if not project.data.end_date %}
-                                <span class="projects__beta">Ongoing</span>
-                            {% endif %}
 
                         <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
                         <p class="projects__item__summary">{{ project.data.summary }}</p>
