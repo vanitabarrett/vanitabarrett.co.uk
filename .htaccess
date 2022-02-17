@@ -3,12 +3,3 @@ RewriteEngine On
 
 RedirectMatch 404 /\.git
 ErrorDocument 404 /404.html
-
-# Map project?[project_name] to project/[project_name]
-RewriteRule ^project/(.*)$ project.php?$1 [NC]
-
-# Map blog?[blog_name] to blog/[blog_name]
-RewriteRule ^blog/(.*)$ blog.php?$1 [NC]
-
-# Resolve .php file for extensionless php urls
-RewriteRule ^([^.]+[^\/])$ $1.php [L]
