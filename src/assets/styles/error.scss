@@ -1,10 +1,10 @@
 .error {
     margin-top: $spacing-full * 2;
     text-align: center;
+    color: $white;
 
     .error-code {
         font-size: $font-xlarge;
-        color: $red;
     }
 
     .error-link {
