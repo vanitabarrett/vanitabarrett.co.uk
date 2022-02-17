@@ -6,7 +6,7 @@ summary: "This August, I deleted 80% of my to-do list. "
 keywords: to-do, to do, list, social media, phone, use, usage, apps, phone addiction, life lessons
 tags:
   - blogs
-published_date: 10-08-2019
+published_date: 2019-08-10
 ---
 
 # {{ name }}

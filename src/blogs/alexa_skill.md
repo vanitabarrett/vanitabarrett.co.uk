@@ -6,7 +6,7 @@ summary: 'At the start of 2018 I decided to work on a skill I’d been meaning t
 keywords: alexa, skill, development, coding, code, amazon alexa, firebreak
 tags:
   - blogs
-published_date: 10-03-2019
+published_date: 2019-03-10
 ---
 
 # {{ name }}

@@ -6,7 +6,7 @@ summary: "I recently spent 3 months as the tech lead of a development team on GO
 keywords: tech, lead, tech lead, leadership, first, new, leader
 tags:
   - blogs
-published_date: 05-04-2019
+published_date: 2019-04-05
 ---
 
 # {{ name }}
