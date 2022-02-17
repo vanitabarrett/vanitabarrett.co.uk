@@ -2,7 +2,6 @@
   "name": "vanitabarrett.co.uk",
   "version": "1.0.0",
   "description": "Vanita Barrett website",
-  "main": "index.php",
   "dependencies": {
     "node-sass": "6.0.0"
   },
