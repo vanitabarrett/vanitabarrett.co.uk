@@ -9,7 +9,7 @@ start_date: 01-01-2016
 end_date: 01-02-2017
 ---
 
-# Project: Sushi Lab
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/sushilab.png" alt="" role="presentation">

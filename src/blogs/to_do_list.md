@@ -1,3 +1,12 @@
+---
+layout: 'layouts/project'
+name: Want to improve your to-do list? Delete it.
+summary: "This August, I deleted 80% of my to-do list. "
+tags:
+  - blogs
+published_date: 10-08-2019
+---
+
 <p class="blog__date">Published 10th August 2019</p>
 
 # Want to improve your to-do list? Delete it.
