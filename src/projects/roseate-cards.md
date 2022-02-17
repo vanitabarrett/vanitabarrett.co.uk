@@ -9,7 +9,7 @@ start_date: 01-08-2020
 end_date: 01-08-2021
 ---
 
-# Project: Roseate Cards
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/roseate.png" alt="" role="presentation">

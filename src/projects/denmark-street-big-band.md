@@ -9,7 +9,7 @@ start_date: 01-01-2019
 end_date: 01-02-2019
 ---
 
-# Project: Denmark Street Big Band
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/bigband.png" alt="" role="presentation">

@@ -8,7 +8,7 @@ tags:
 start_date: 2020-07-06
 ---
 
-# Project: GOV.UK Design System
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/govuk-design-system.png" alt="" role="presentation">

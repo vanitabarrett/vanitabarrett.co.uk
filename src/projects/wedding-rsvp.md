@@ -9,7 +9,7 @@ start_date: 01-01-2019
 end_date: 01-08-2021
 ---
 
-# Project: Wedding RSVP
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/vawedding.png" alt="" role="presentation">

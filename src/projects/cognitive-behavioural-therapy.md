@@ -9,7 +9,7 @@ start_date: 01-09-2017
 end_date: 01-06-2018
 ---
 
-# Project: MoodJar, A Cognitive Behavioural Therapy app
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image" src="/assets/project-images/moodjar.png" alt="" role="presentation">

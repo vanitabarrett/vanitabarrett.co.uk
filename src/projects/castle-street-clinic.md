@@ -9,7 +9,7 @@ start_date: 01-01-2017
 end_date: 25-02-2017
 ---
 
-# Project: Castle Street Clinic
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/csc.png" alt="" role="presentation">

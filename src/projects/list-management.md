@@ -9,7 +9,7 @@ start_date: 01-01-2018
 end_date: 01-01-2020
 ---
 
-# Project: List Management
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/books.png" alt="" role="presentation">

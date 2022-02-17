@@ -9,7 +9,7 @@ start_date: 01-06-2018
 end_date: 06-07-2020
 ---
 
-# Project: GOV.UK
+# Project: {{ name }}
 
 <div class="image-wrapper">
   <img class="project-image project-image--multiple" src="/assets/project-images/govuk.png" alt="" role="presentation">
