@@ -1,0 +1,32 @@
+---
+title: 'Vanita Barrett - Web Developer'
+layout: 'layouts/base'
+---
+
+{% block content %}
+    <div class="intro max-width">
+      <p>I'm a Web Developer, based in London. I work as a <span class="intro-em">Senior Frontend Developer</span> at <a href="https://gds.blog.gov.uk/" rel="external" class="intro-em">Government Digital Service</a>, working on the <a href="https://www.gov.uk/design-system" rel="external" class="intro-em">GOV.UK Design System</a>.</p>
+      <p>I also <a href="/blogs" class="intro-em">write</a> about my experiences working as a developer and being a woman in tech.</p>
+      <p>Occasionally, I pretend to be a web designer and <a href="https://www.flickr.com/photos/v_barrett/" rel="external" class="intro-em">photographer</a>.</p>
+      <p>You can find me on <a href="https://www.linkedin.com/in/vanitabarrett/" rel="external" class="intro-em">LinkedIn</a> and <a href="https://twitter.com/V_Barrett" rel="external" class="intro-em">Twitter</a>.</p>
+    </div>
+
+    <div class="projects max-width">
+        <h1>Projects</h1>
+        <ol class="projects__list">
+            {% for project in collections.projects %}
+                <li class="projects__item">
+                    <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
+                        {% if not project.data.end_date %}
+                            <span class="projects__beta">Ongoing</span>
+                        {% endif %}
+
+                    <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
+                    <p class="projects__item__summary">{{ project.data.summary }}</p>
+                </li>
+            {% endfor %}
+        </ol>
+    </div>
+
+  </div>
+{% endblock %}

@@ -1,6 +1,15 @@
-<p class="blog__date">Published 5th April 2019</p>
+---
+layout: 'layouts/blog'
+id: first_time_tech_lead
+name: Becoming a Tech Lead for the first time
+summary: "I recently spent 3 months as the tech lead of a development team on GOV.UK. The was the first time I had taken on the tech lead role, so I had a lot to learn and it definitely had it's challenges. This post condenses down everything I learnt and will hopefully be a useful guide for any other new tech leads out there!"
+keywords: tech, lead, tech lead, leadership, first, new, leader
+tags:
+  - blogs
+published_date: 05-04-2019
+---
 
-# Becoming a Tech Lead for the first time
+# {{ name }}
 
 I recently spent 3 months as the tech lead of a development team on GOV.UK. This was the first time I had taken on the tech lead role, so I had a lot to learn and, as a frontend developer leading what turned out to be a mostly backend development team, it definitely had its challenges. I’ve tried to condense down everything I learnt during this time, both as a reference point for myself and to hopefully help other new tech leads.
 

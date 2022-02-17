@@ -1,4 +1,5 @@
 node_modules/*
 .DS_Store
-assets/styles/build/*
+assets/styles/*
 data/env.json
+_site

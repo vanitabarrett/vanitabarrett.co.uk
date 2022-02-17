@@ -1,6 +1,15 @@
-<p class="blog__date">Published 10th March 2019</p>
+---
+layout: 'layouts/blog'
+id: alexa_skill
+name: 3 things I learnt from developing an Amazon Alexa skill
+summary: 'At the start of 2018 I decided to work on a skill I’d been meaning to try for a long time: writing an Alexa skill. I’d heard a lot of good things around developing Alexa skills, primarily how easy and quick it is to do. However, I found my normal development practices were restricted which made the process more complicated for me.'
+keywords: alexa, skill, development, coding, code, amazon alexa, firebreak
+tags:
+  - blogs
+published_date: 10-03-2019
+---
 
-# 3 things I learnt from developing an Amazon Alexa skill
+# {{ name }}
 
 At Government Digital Service (GDS), we have been participating in firebreaks: 1 week breaks between our quarterly missions to give people the opportunity to slow down their pace of working and scratch an itch. Since [this concept began in 2015](https://insidegovuk.blog.gov.uk/2015/02/06/gov-uks-firebreak-why-and-how-we-spent-a-month-working-differently/), there have been many firebreak projects, including: writing up and collating resources around how GOV.UK was built, improving the structured learning for our junior developers, and exploring how to build a Facebook Messenger chatbot for GOV.UK.
 
@@ -13,14 +22,14 @@ I’d heard a lot about how easy and quick it is to develop an Alexa skill. Howe
 As a developer, I rely heavily on testing my code as I go along. Day-to-day, I’m regularly printing out responses and function returns to double check all steps in my code are working as expected. However, when developing an Alexa skill, although you’re able to test the logic locally, in order to check the skill as a whole you have to upload it and test it through the Alexa Developer Portal. This isn’t difficult, but slows down the development process, especially when making small refactoring changes.
 
 <figure>
-  <img src="/writing/images/alexa_skill_test.png" alt="Testing interface in Alexa Developer Portal"/>
+  <img src="/assets/blog-images/alexa_skill_test.png" alt="Testing interface in Alexa Developer Portal"/>
   <figcaption>Testing interface in Alexa Developer Portal</figcaption>
 </figure>
 
 The Alexa Developer Portal testing environment doesn’t give you useful error messages if something goes wrong. If you’re using AWS Lambda to host your skill, I’d recommend using their testing functionality instead. AWS Lambda lets you create up to 10 JSON test events which are passed to your Lambda function for testing. When testing, you get to see the full JSON response and logs.
 
 <figure>
-  <img src="/writing/images/alexa_skill_lambda.png" alt="Testing interface in AWS Lambda"/>
+  <img src="/assets/blog-images/alexa_skill_lambda.png" alt="Testing interface in AWS Lambda"/>
   <figcaption>Testing interface in AWS Lambda</figcaption>
 </figure>
 
@@ -28,7 +37,7 @@ The Alexa Developer Portal testing environment doesn’t give you useful error m
 No one can accuse Amazon or AWS (Amazon Web Services) documentation of not being thorough, but can be almost impossible to find what you need.
 
 <figure>
-  <img src="/writing/images/alexa_skill_tabs.png" alt="Over 30 tabs open with documentation on how to build an Alexa skill."/>
+  <img src="/assets/blog-images/alexa_skill_tabs.png" alt="Over 30 tabs open with documentation on how to build an Alexa skill."/>
   <figcaption>All the tabs I had open while developing this skill! The step-by-step guide on <a href="https://developer.amazon.com/docs/custom-skills/steps-to-build-a-custom-skill.html#step-1-design-a-voice-user-interface">Building a Custom Alexa Skill</a> itself links to 30 other pages.</figcaption>
 </figure>
 

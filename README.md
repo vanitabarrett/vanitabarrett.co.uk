@@ -1,14 +1,23 @@
 Portfolio website at [vanitabarrett.co.uk](https://vanitabarrett.co.uk)
 
 # Development
+This project is built using [Eleventy](https://www.11ty.dev/)
+
 ## Setup
-Clone the repo:
+1. Clone the repo, by running:
 
-```git clone git@github.com:vanitabarrett/vanitabarrett.co.uk.git```
+      ```
+      git clone git@github.com:vanitabarrett/vanitabarrett.co.uk.git
+      ```
 
-Run `npm install` to install dependencies.
+2. Run `npm install` to install dependencies.
 
-## Building SASS
-The project makes use of node-sass to build the SCSS into `assets/styles/build/styles.css` using the following command:
+3. Run `npm start` to run the project locally.
 
-```npm run build-sass```
+## Build
+The project makes use of node-sass to build the SASS into `assets/styles/styles.css`.
+
+Running `npm run build` will build the whole project.
+
+Running `npm run build-sass` will build just the SASS.
+
