@@ -8,6 +8,10 @@
     }
 
     .error-link {
+        color: $white;
+    }
+
+    .error-cta-link {
         display: block;
         padding: $spacing-two-thirds ($spacing-full + $spacing-one-third);
         background-color: $red;
