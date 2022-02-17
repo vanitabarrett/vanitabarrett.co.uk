@@ -5,6 +5,7 @@ role: Technical Lead & Senior Frontend Developer
 summary: Working on the GOV.UK Design System, which is used by GOV.UK and other services across government.
 tags:
   - projects
+  - ongoing_projects
 start_date: 2020-07-06
 ---
 

@@ -5,8 +5,8 @@ role: Designer and Frontend Developer
 summary: Website design and build for an online greetings card retail company, with Etsy integration.
 tags:
   - projects
-start_date: 01-08-2020
-end_date: 01-08-2021
+start_date: 2020-08-01
+end_date: 2021-08-01
 ---
 
 # Project: {{ name }}

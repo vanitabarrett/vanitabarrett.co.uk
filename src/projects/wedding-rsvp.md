@@ -5,8 +5,8 @@ role: Designer and Frontend Developer
 summary: Design and build of a wedding website, primarily for guest RSVP.
 tags:
   - projects
-start_date: 01-01-2019
-end_date: 01-08-2021
+start_date: 2019-01-01
+end_date: 2021-08-01
 ---
 
 # Project: {{ name }}

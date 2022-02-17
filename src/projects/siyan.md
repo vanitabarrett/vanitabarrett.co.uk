@@ -5,8 +5,8 @@ role: Designer
 summary: Website redesign for a leading design and lighting rental company.
 tags:
   - projects
-start_date: 01-01-2020
-end_date: 10-07-2020
+start_date: 2020-01-01
+end_date: 2020-07-10
 ---
 
 # Project: {{ name }}

@@ -5,8 +5,8 @@ role: Owner, Designer and Developer
 summary: Design and build of a web application to track progress against various collections of list data.
 tags:
   - projects
-start_date: 01-01-2018
-end_date: 01-01-2020
+start_date: 2018-01-01
+end_date: 2020-01-01
 ---
 
 # Project: {{ name }}

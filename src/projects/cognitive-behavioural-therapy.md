@@ -5,8 +5,8 @@ role: Website Developer and Android Developer
 summary: Application development exploring the use of secure technology to enhance communication between health professionals and patients within the health industry.
 tags:
   - projects
-start_date: 01-09-2017
-end_date: 01-06-2018
+start_date: 2017-09-01
+end_date: 2018-06-01
 ---
 
 # Project: {{ name }}

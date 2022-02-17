@@ -5,8 +5,8 @@ role: Designer and Frontend Developer
 summary: Website design for a new quick-service sushi restaurant based in Guildford.
 tags:
   - projects
-start_date: 01-01-2016
-end_date: 01-02-2017
+start_date: 2016-01-01
+end_date: 2017-02-01
 ---
 
 # Project: {{ name }}

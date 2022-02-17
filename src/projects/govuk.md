@@ -2,11 +2,11 @@
 layout: 'layouts/project'
 name: GOV.UK
 role: Frontend Developer
-summary: Building new templates, enhancing accessibility, and working with other frontend developers to consolidate and improve the frontend architecture across the UK government website.
+summary: Building new templates, enhancing accessibility, and working with other frontend developers to consolistart_date and improve the frontend architecture across the UK government website.
 tags:
   - projects
-start_date: 01-06-2018
-end_date: 06-07-2020
+start_date: 2018-06-01
+end_date: 2020-07-06
 ---
 
 # Project: {{ name }}
@@ -24,7 +24,7 @@ end_date: 06-07-2020
   <dd><a href="https://www.gov.uk/">gov.uk</a></dd>
 </dl>
 
-Primarily, my role as a frontend developer on GOV.UK involved building new templates and components, taking outcomes from user research and accessibility audits and turning them into actionable developer stories, enhancing the accessibility of GOV.UK and working with other frontend developers to consolidate and improving the frontend architecture across GOV.UK
+Primarily, my role as a frontend developer on GOV.UK involved building new templates and components, taking outcomes from user research and accessibility audits and turning them into actionable developer stories, enhancing the accessibility of GOV.UK and working with other frontend developers to consolistart_date and improving the frontend architecture across GOV.UK
 
 In my time on GOV.UK I worked on multiple teams focusing on different areas of the site, including:
 
