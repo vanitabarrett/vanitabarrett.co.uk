@@ -7,9 +7,9 @@ layout: 'layouts/base'
     <div class="blogs max-width">
       {% for blog in collections.blogs %}
         <div class="blogs__item__text">
-          <a class="blogs__item" href="/blog/{{ blog.fileSlug }}"><h2>{{ blog.name }}</h2></a>
-          <p class="blogs__date">Published {{ blog.published_date }}</p>
-          <p>{{ blog.summary }}</p>
+          <a class="blogs__item" href="/blog/{{ blog.fileSlug }}"><h2>{{ blog.data.name }}</h2></a>
+          <p class="blogs__date">Published {{ blog.data.published_date }}</p>
+          <p>{{ blog.data.summary }}</p>
         </div>
       {% endfor %}
     </div>
