@@ -7,9 +7,9 @@ tags:
 published_date: 10-08-2019
 ---
 
-<p class="blog__date">Published 10th August 2019</p>
+<p class="blog__date">Published {{ published_date }}</p>
 
-# Want to improve your to-do list? Delete it.
+# {{ name }}
 
 This August, I deleted 80% of my to-do list.
 
