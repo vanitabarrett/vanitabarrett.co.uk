@@ -1,13 +1,12 @@
 ---
-layout: 'layouts/project'
+layout: 'layouts/blog'
+id: first_time_tech_lead
 name: Becoming a Tech Lead for the first time
 summary: "I recently spent 3 months as the tech lead of a development team on GOV.UK. The was the first time I had taken on the tech lead role, so I had a lot to learn and it definitely had it's challenges. This post condenses down everything I learnt and will hopefully be a useful guide for any other new tech leads out there!"
 tags:
   - blogs
 published_date: 05-04-2019
 ---
-
-<p class="blog__date">Published {{ published_date }}</p>
 
 # {{ name }}
 

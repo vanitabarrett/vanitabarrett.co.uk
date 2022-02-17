@@ -1,13 +1,12 @@
 ---
-layout: 'layouts/project'
+layout: 'layouts/blog'
+id: to_do_list
 name: Want to improve your to-do list? Delete it.
 summary: "This August, I deleted 80% of my to-do list. "
 tags:
   - blogs
 published_date: 10-08-2019
 ---
-
-<p class="blog__date">Published {{ published_date }}</p>
 
 # {{ name }}
 
