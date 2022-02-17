@@ -8,7 +8,6 @@ module.exports = function (config) {
   config.addPassthroughCopy('src/favicon-32x32.png');
 
   config.addFilter('sortByStartDate', values => {
-    console.log(values)
     return values.sort((a, b) => new Date(b.data.end_date) - new Date(a.data.end_date))
   })
 
