@@ -23,18 +23,26 @@
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,500" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css">
   </head>
 
   <body>
     <div class="wrapper">
       <header>
-        <div class="max-width">
-          <a href="/" class="web-title" aria-label="Vanita Barrett"><span class="web-title--capital">V</span>anita <span class="web-title--capital">B</span>arrett</a>
-        </div>
+        <a href="/">VB</a>
+
+        <nav>
+          <a href="/projects">Projects</a>
+          <a href="/blog">Blog</a>
+        </nav>
       </header>
-    {{ content | safe }}
+
+      <main>
+        {{ content | safe }}
+      </main>
   </body>
 
   <footer>
