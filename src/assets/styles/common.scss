@@ -1,56 +1,33 @@
-html,
-body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-    background-color: $red;
+html {
+    background-color: $white;
     font-family: 'Alegreya Sans', sans-serif;
     font-weight: 300;
     font-size: $text;
-
-    header a, .intro a {
-        color: $white;
-        text-decoration: none;
-    }
 }
 
-h1 {
-    font-size: $heading1;
-}
+body {
+    padding: 20px;
 
-h2 {
-    font-size: $heading2;
-}
-
-a {
-    color: $red;
-
-    &:hover, &:visited {
-        color: $red-highlight;
+    &::before, &::after {
+        content: '';
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 20px;
+        background-color: $white;
     }
 
-    &:focus {
-        outline: 0;
-        background-color: $black;
-        color: $white;
+    &::before {
+        top: 0;
+        left: 0;
+    }
+
+    &::after {
+        bottom: 0;
+        left: 0;
     }
 }
 
 .wrapper {
-    background-color: $white;
-    overflow: visible;
-    min-height: calc(100% - 67px);
-}
-
-.max-width {
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-
-    @include breakpoint(3) {
-        padding: 0 $spacing-half;
-        box-sizing: border-box;
-    }
+    background-color: $light-pink;
 }
