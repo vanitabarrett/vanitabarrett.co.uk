@@ -1,15 +1,15 @@
-$light-pink: rgba(231, 187, 187, 0.25);
 $white: #ffffff;
+$black: #000000;
+$hover: #d0d9c5;
+$light-pink: rgba(231, 187, 187, 0.25);
+$burgundy: #733333;
+$dark-burgundy: #421C1C;
 
-$font-xlarge: 100px;
-$font-large: 70px;
-$heading1: 30px;
-$emphasis: 30px;
-$heading2: 25px;
-$heading3: 18px;
+$text-xlarge: 100px;
+$text-large: 50px;
+$text-medium: 22px;
 $text: 18px;
-$text-small: 14px;
-$text-x-small: 12px;
+$text-small: 16px;
 
 $spacing-full: 30px;
 $spacing-two-thirds: 20px;
@@ -18,15 +18,15 @@ $spacing-one-third: 10px;
 
 @mixin breakpoint($point) {
   @if $point == 3 {
-    @media (max-width: 1008px) { @content; }
+    @media (min-width: 1008px) { @content; }
   }
   @else if $point == 2 {
-    @media (max-width: 850px) { @content; }
+    @media (min-width: 850px) { @content; }
   }
   @else if $point == 1 {
-    @media (max-width: 570px)  { @content; }
+    @media (min-width: 570px)  { @content; }
   }
   @else if $point == 0 {
-    @media (max-width: 380px)  { @content; }
+    @media (min-width: 380px)  { @content; }
   }
 }

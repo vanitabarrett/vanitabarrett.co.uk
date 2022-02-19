@@ -1,0 +1,26 @@
+
+<div class="projects max-width">
+    <h1>Projects</h1>
+    <ol class="projects__list">
+        {% for project in collections.ongoing_projects %}
+            <li class="projects__item">
+                <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
+                <span class="projects__beta">Ongoing</span>
+
+                <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
+                <p class="projects__item__summary">{{ project.data.summary }}</p>
+            </li>
+        {% endfor %}
+
+        {% for project in collections.projects | sortByStartDate %}
+            {% if project.data.end_date %}
+                <li class="projects__item">
+                    <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
+
+                    <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
+                    <p class="projects__item__summary">{{ project.data.summary }}</p>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ol>
+</div>

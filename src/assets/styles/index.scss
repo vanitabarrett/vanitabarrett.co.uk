@@ -1,0 +1,62 @@
+.homepage-intro {
+  margin-left: 0;
+  margin-top: $spacing-full;
+
+  @include breakpoint(2) {
+    margin-left: $spacing-full * 2;
+    margin-top: $spacing-full;
+  }
+
+  h1, .fake-heading {
+    font-size: $text-large;
+    width: 100%;
+
+    @include breakpoint(3) {
+      font-size: $text-xlarge;
+      width: 75%;
+    }
+
+    em {
+      color: $dark-burgundy;
+      font-style: normal;
+    }
+  }
+
+  p {
+    width: 100%;
+    font-size: $text-medium;
+
+    @include breakpoint(1) {
+      width: 80%;
+    }
+
+    @include breakpoint(3) {
+      width: 50%;
+    }
+
+    a {
+      font-weight: bold;
+    }
+  }
+
+  &__socials {
+    a {
+      text-decoration: none;
+      display: inline-block;
+      margin-right: $spacing-one-third;
+
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+
+      &:hover, &:focus {
+        fill: $burgundy;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}

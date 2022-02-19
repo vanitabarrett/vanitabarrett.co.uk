@@ -1,11 +1,13 @@
 html {
     background-color: $white;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: $text;
+    color: $black;
 }
 
 body {
     padding: 20px;
+    margin: 0;
 
     &::before, &::after {
         content: '';
@@ -14,6 +16,7 @@ body {
         width: 100%;
         height: 20px;
         background-color: $white;
+        z-index: 1000;
     }
 
     &::before {
@@ -29,9 +32,78 @@ body {
 
 .wrapper {
     background-color: $light-pink;
+    padding: $spacing-two-thirds;
 }
 
-h1 {
+header {
+    position: relative;
+}
+
+.logo {
+    text-decoration: none;
+    color: $burgundy;
+    font-family: 'Passion One', sans-serif;
+    font-size: $text-large;
+
+    span {
+        text-shadow: -2px 2px $black;
+
+        &:last-child {
+           position: relative;
+           top: 5px;
+        }
+    }
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    a {
+        margin-right: $spacing-one-third;
+        text-transform: uppercase;
+        font-size: $text-small;
+    }
+}
+
+h1, .fake-heading {
     font-family: 'Passion One', sans-serif;
     font-weight: 300;
+    color: $burgundy;
+    margin: 0;
+    line-height: 1;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: $black;
+
+    &:hover {
+        background-color: $hover;
+        box-shadow: 0px 0px 0px 5px $hover;
+    }
+
+    &:focus {
+        background-color: $hover;
+        box-shadow: 0px 0px 0px 5px $hover;
+        border-bottom: 2px solid $black;
+        outline: 0;
+        text-decoration: none;
+    }
+}
+
+footer {
+    text-align: right;
+    font-size: $text-small;
+    margin-top: $spacing-two-thirds;
+
+    a, p {
+        margin: 0;
+    }
 }
