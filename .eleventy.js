@@ -1,4 +1,6 @@
 module.exports = function (config) {
+  config.addWatchTarget("./src/assets/styles/*.scss");
+
   // All passthroughs
   config.addPassthroughCopy('.htaccess');
   config.addPassthroughCopy('src/assets/project-images/*');
