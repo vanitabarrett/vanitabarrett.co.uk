@@ -10,7 +10,12 @@ layout: 'layouts/base'
             {% for project in collections.ongoing_projects %}
                 <li class="projects__item">
                     <a href="/projects/{{ project.fileSlug }}">
-                        <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
+                        {% if project.data.image_slug %}
+                            <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
+                        {% else %}
+                            <span class="logo"><span>V</span><span>B</span></span>
+                        {% endif %}
+
                         <h2>{{ project.data.name }}</h2>
                     </a>
                 </li>
@@ -20,7 +25,11 @@ layout: 'layouts/base'
                 {% if project.data.end_date %}
                     <li class="projects__item">
                         <a href="/projects/{{ project.fileSlug }}">
-                            <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
+                            {% if project.data.image_slug %}
+                                <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
+                            {% else %}
+                                <span class="logo"><span>V</span><span>B</span></span>
+                            {% endif %}
                             <h2>{{ project.data.name }}</h2>
                         </a>
                     </li>
