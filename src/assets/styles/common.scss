@@ -106,12 +106,17 @@ a {
 }
 
 footer {
-    text-align: right;
+    text-align: center;
     font-size: $text-small;
     margin-top: $spacing-two-thirds;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
+
+    @include breakpoint(2) {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        text-align: right;
+
+    }
 
     a, p {
         margin: 0;
