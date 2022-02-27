@@ -1,6 +1,7 @@
 ---
 layout: 'layouts/project'
 name: GOV.UK
+image_slug: govuk
 role: Frontend Developer
 summary: Building new templates, enhancing accessibility, and working with other frontend developers to consolistart_date and improve the frontend architecture across the UK government website.
 tags:

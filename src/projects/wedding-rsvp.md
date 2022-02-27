@@ -1,6 +1,7 @@
 ---
 layout: 'layouts/project'
 name: Wedding RSVP
+image_slug: vawedding
 role: Designer and Frontend Developer
 summary: Design and build of a wedding website, primarily for guest RSVP.
 tags:

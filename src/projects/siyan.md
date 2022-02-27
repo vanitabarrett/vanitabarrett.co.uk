@@ -1,6 +1,7 @@
 ---
 layout: 'layouts/project'
 name: Siyan
+image_slug: siyan
 role: Designer
 summary: Website redesign for a leading design and lighting rental company.
 tags:

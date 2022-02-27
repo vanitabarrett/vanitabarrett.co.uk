@@ -1,6 +1,7 @@
 ---
 layout: 'layouts/project'
 name: Castle Street Clinic
+image_slug: csc
 role: Designer
 summary: Website redesign for an osteopathy clinic.
 tags:

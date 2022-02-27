@@ -1,26 +1,31 @@
+---
+title: 'Projects - Vanita Barrett - Web Developer'
+layout: 'layouts/base'
+---
 
-<div class="projects max-width">
-    <h1>Projects</h1>
-    <ol class="projects__list">
-        {% for project in collections.ongoing_projects %}
-            <li class="projects__item">
-                <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
-                <span class="projects__beta">Ongoing</span>
-
-                <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
-                <p class="projects__item__summary">{{ project.data.summary }}</p>
-            </li>
-        {% endfor %}
-
-        {% for project in collections.projects | sortByStartDate %}
-            {% if project.data.end_date %}
+{% block content %}
+    <div class="projects">
+        <h1>Projects</h1>
+        <ol class="projects__list">
+            {% for project in collections.ongoing_projects %}
                 <li class="projects__item">
-                    <h2><a href="/projects/{{ project.fileSlug }}">{{ project.data.name }}</a></h2>
-
-                    <p class="projects__item__job" aria-label="Job Title: {{ project.data.data.role }}">{{ project.data.role }}</p>
-                    <p class="projects__item__summary">{{ project.data.summary }}</p>
+                    <a href="/projects/{{ project.fileSlug }}">
+                        <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
+                        <h2>{{ project.data.name }}</h2>
+                    </a>
                 </li>
-            {% endif %}
-        {% endfor %}
-    </ol>
-</div>
+            {% endfor %}
+
+            {% for project in collections.projects | sortByStartDate %}
+                {% if project.data.end_date %}
+                    <li class="projects__item">
+                        <a href="/projects/{{ project.fileSlug }}">
+                            <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
+                            <h2>{{ project.data.name }}</h2>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+    </div>
+{% endblock %}

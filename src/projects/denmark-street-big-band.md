@@ -1,6 +1,7 @@
 ---
 layout: 'layouts/project'
 name: Denmark Street Big Band
+image_slug: bigband
 role: Designer
 summary: Re-design of an outstart_dated Wordpress site for Denmark Street Big Band.
 tags:
