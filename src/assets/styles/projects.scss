@@ -1,6 +1,7 @@
 .projects {
   .projects__list {
-    text-align: center;
+    padding: 0;
+    margin: $spacing-full auto;
 
     .projects__item {
       position: relative;
