@@ -1,0 +1,31 @@
+.project {
+  .project__skill-list {
+    margin: ($spacing-full * 1.5) 0 $spacing-full 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .project__skill-item {
+    display: inline-block;
+    margin-right: $spacing-full;
+    text-align: center;
+    max-width: 150px;
+    vertical-align: top;
+  }
+
+  .project__skill-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .project__skill-text {
+    font-size: $text-small;
+    margin-top: 5px;
+  }
+
+  .project-images {
+    text-align: center;
+  }
+}

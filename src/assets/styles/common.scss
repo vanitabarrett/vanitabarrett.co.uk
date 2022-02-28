@@ -73,6 +73,12 @@ nav {
 
 main {
     padding-top: $spacing-full;
+    margin-left: 60px;
+    padding-bottom: 80px;
+
+    @include breakpoint(2) {
+        margin-left: $spacing-full * 2;
+    }
 }
 
 h1, .fake-heading {

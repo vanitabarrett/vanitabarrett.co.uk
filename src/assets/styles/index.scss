@@ -1,10 +1,4 @@
 .homepage-intro {
-  margin-left: 0;
-
-  @include breakpoint(2) {
-    margin-left: $spacing-full * 2;
-  }
-
   h1, .fake-heading {
     font-size: $text-large;
     width: 100%;
