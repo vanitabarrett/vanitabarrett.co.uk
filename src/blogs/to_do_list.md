@@ -22,7 +22,8 @@ There were two main problems:
 1. My to-do list was too large. It was difficult to prioritise and looking at it made me demotivated. I constantly felt ashamed that I wasn't achieving enough. I would feel guilty going out with friends or wasting as little as 5 minutes having a chat with a colleague, when I could have spent that time ticking one more thing off my list.
 2. Having such a comprehensive to-do list meant I wasn’t encouraged to properly look and engage with the world around me. Instead, I relied on my phone to tell me what to do.
 
-## So, what have I done?
+## So, what have I done?
+
 On the 1st August, I took some steps to try and reduce my reliance on my to-do list (and my phone in general). I’m trialling these for the rest of the month to see how it goes, but I can already say that I’ve seen a huge improvement over just 1 week.
 
 ### Clear out your to-do list
