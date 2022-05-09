@@ -4,18 +4,16 @@ layout: 'layouts/base'
 ---
 
 {% block content %}
-    <div class="blogs">
-      <h1>Blogs</h1>
-      <ul class="blogs__list">
-      {% for blog in collections.blogs | sortByPublishedDate %}
-        <li class="blogs__item__text">
-          <a class="blogs__item" href="/blogs/{{ blog.fileSlug }}"><h2>{{ blog.data.name }}</h2></a>
-          <p class="blogs__date">Published {{ blog.data.published_date }}</p>
-          <p>{{ blog.data.summary }}</p>
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
-
+  <div class="blogs">
+    <h1>Blogs</h1>
+    <ul class="blogs__list">
+    {% for blog in collections.blogs | sortByPublishedDate %}
+      <li class="blogs__item__text">
+        <a class="blogs__item" href="/blogs/{{ blog.fileSlug }}"><h2>{{ blog.data.name }}</h2></a>
+        <p class="blogs__date">Published {{ blog.data.published_date }}</p>
+        <p>{{ blog.data.summary }}</p>
+      </li>
+    {% endfor %}
+    </ul>
   </div>
 {% endblock %}
