@@ -9,8 +9,6 @@ tags:
 published_date: 2019-08-10
 ---
 
-# {{ name }}
-
 This August, I deleted 80% of my to-do list.
 
 When I first discovered to-do list apps, they seemed like the perfect way to stay organised all the time. I started using them as a way of jotting down things I needed to do when I got home from work. This worked pretty well, until I started thinking of things which I knew I couldn’t complete in one evening. _Oh well, no problem there, I’ll just schedule them in for the weekend… or the weekend after that… or perhaps in a couple of months…_

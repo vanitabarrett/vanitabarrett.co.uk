@@ -4,12 +4,34 @@
   object-fit: cover;
 }
 
-.blog {
+.blog__content {
+  display: inline-block;
+  width: 66%;
+  box-sizing: border-box;
+  line-height: 2;
+
   img {
     width: 100%;
   }
 
   figcaption {
     font-style: italic;
+  }
+}
+
+.blog__aside {
+  display: inline-block;
+  width: 25%;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+
+  .share-links__list {
+    list-style-type: none;
+    padding: 0;
+
+    .share-links__list-item {
+      margin-bottom: $spacing-half;
+    }
   }
 }
