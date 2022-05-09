@@ -73,7 +73,6 @@ nav {
 
 main {
     padding-top: $spacing-full;
-    margin-left: 60px;
     padding-bottom: 80px;
     clear: both; // clearfix for any floated content
     overflow: hidden; // clearfix for any floated content
@@ -86,10 +85,14 @@ main {
 h1, .fake-heading {
     font-family: 'Passion One', sans-serif;
     font-weight: 300;
-    font-size: $text-xlarge;
+    font-size: $text-large;
     color: $burgundy;
     margin: 0;
     line-height: 1;
+
+    @include breakpoint(2) {
+        font-size: $text-xlarge;
+    }
 }
 
 p {

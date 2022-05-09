@@ -5,10 +5,14 @@
 }
 
 .blog__content {
-  display: inline-block;
-  width: 66%;
-  box-sizing: border-box;
+  display: block;
   line-height: 2;
+
+  @include breakpoint(2) {
+    display: inline-block;
+    width: 66%;
+    box-sizing: border-box;
+  }
 
   img {
     width: 100%;
@@ -20,11 +24,18 @@
 }
 
 .blog__aside {
-  display: inline-block;
-  width: 25%;
-  box-sizing: border-box;
-  position: absolute;
-  right: 0;
+  display: block;
+  width: 100%;
+  border-top: 2px solid $black;
+
+  @include breakpoint(2) {
+    display: inline-block;
+    width: 25%;
+    position: absolute;
+    right: 10px;
+    box-sizing: border-box;
+    border: none;
+  }
 
   .share-links__list {
     list-style-type: none;

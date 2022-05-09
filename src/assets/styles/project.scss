@@ -35,10 +35,15 @@
     }
 
     .project-image--multiple {
-      width: 50%;
+      width: 100%;
+      margin-bottom: 10px;
       float: left;
       padding: 5px;
       box-sizing: border-box;
+
+      @include breakpoint(2) {
+        width: 50%;
+      }
     }
   }
 }

@@ -9,8 +9,6 @@ tags:
 published_date: 2019-04-05
 ---
 
-# {{ name }}
-
 I recently spent 3 months as the tech lead of a development team on GOV.UK. This was the first time I had taken on the tech lead role, so I had a lot to learn and, as a frontend developer leading what turned out to be a mostly backend development team, it definitely had its challenges. I’ve tried to condense down everything I learnt during this time, both as a reference point for myself and to hopefully help other new tech leads.
 
 ## Can a frontend developer be the tech lead of a primarily backend team?
