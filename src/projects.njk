@@ -6,8 +6,23 @@ layout: 'layouts/base'
 {% block content %}
     <div class="projects">
         <h1>Projects</h1>
-        <ol class="projects__list">
-            {% for project in collections.ongoing_projects %}
+        <ul class="projects__list">
+        {% for project in collections.ongoing_projects %}
+            <li class="projects__item">
+                <a href="/projects/{{ project.fileSlug }}">
+                    {% if project.data.image_slug %}
+                        <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
+                    {% else %}
+                        <span class="logo"><span>V</span><span>B</span></span>
+                    {% endif %}
+
+                    <h2>{{ project.data.name }}</h2>
+                </a>
+            </li>
+        {% endfor %}
+
+        {% for project in collections.projects | sortByStartDate %}
+            {% if project.data.end_date %}
                 <li class="projects__item">
                     <a href="/projects/{{ project.fileSlug }}">
                         {% if project.data.image_slug %}
@@ -15,26 +30,11 @@ layout: 'layouts/base'
                         {% else %}
                             <span class="logo"><span>V</span><span>B</span></span>
                         {% endif %}
-
                         <h2>{{ project.data.name }}</h2>
                     </a>
                 </li>
-            {% endfor %}
-
-            {% for project in collections.projects | sortByStartDate %}
-                {% if project.data.end_date %}
-                    <li class="projects__item">
-                        <a href="/projects/{{ project.fileSlug }}">
-                            {% if project.data.image_slug %}
-                                <img class="projects__item__image" src="/assets/project-images/{{ project.data.image_slug }}.svg" alt="" role="presentation">
-                            {% else %}
-                                <span class="logo"><span>V</span><span>B</span></span>
-                            {% endif %}
-                            <h2>{{ project.data.name }}</h2>
-                        </a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </ol>
+            {% endif %}
+        {% endfor %}
+        </ul>
     </div>
 {% endblock %}

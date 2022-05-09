@@ -14,6 +14,10 @@ module.exports = function (config) {
     return values.sort((a, b) => new Date(b.data.end_date) - new Date(a.data.end_date))
   })
 
+  config.addFilter('sortByPublishedDate', values => {
+    return values.sort((a, b) => new Date(b.data.published_date) - new Date(a.data.published_date))
+  })
+
   return {
     dir: {
       input: 'src',
