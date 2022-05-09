@@ -1,103 +1,44 @@
-.breadcrumbs__list {
-    list-style-type: none;
+.project {
+  line-height: 2;
+
+  .project__skill-list {
+    margin: ($spacing-full * 1.5) 0 $spacing-full 0;
     padding: 0;
-    margin: 0;
-    margin-top: $spacing-half;
+    list-style-type: none;
+  }
 
-    &__item {
-        display: inline-block;
-        color: $black;
-        font-size: $text;
+  .project__skill-item {
+    display: inline-block;
+    margin-right: $spacing-full;
+    text-align: center;
+    max-width: 150px;
+    vertical-align: top;
+  }
 
-        a {
-            text-decoration: none;
-        }
+  .project__skill-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
 
-        a:hover {
-            text-decoration: underline;
-        }
+  .project__skill-text {
+    font-size: $text-small;
+    margin-top: 5px;
+  }
 
-        &:before {
-            content: '>';
-            font-size: $text-small;
-            font-weight: bold;
-            color: $grey;
-        }
-
-        &:first-child:before {
-            display: none;
-        }
-
-        &:last-child span:before {
-            content: 'Current Page: ';
-        }
-    }
-}
-
-.project-info {
-    .projects__beta {
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: $text-x-small;
-        font-weight: bold;
-        color: $white;
-        background-color: $black;
-        padding: 5px;
-        vertical-align: middle;
-        margin-left: 5px;
-    }
-
-    h1 a {
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
-        }
-    }
-
-    p {
-        margin-bottom: 0;
-    }
-
-     &__technologies {
-        margin-top: $spacing-full;
-
-        h2 {
-            margin: 0;
-        }
-
-        &-list {
-            margin-bottom: 0;
-            margin-top: 5px;
-        }
-
-        &-list li {
-            display: inline-block;
-            list-style-type: none;
-            margin: ($spacing-one-third / 2) $spacing-half;
-        }
-    }
-}
-
-.image-wrapper {
-    overflow: hidden;
+  .project-images {
     text-align: center;
 
     .project-image {
-        display: inline-block;
-        width: 50%;
-        max-width: 500px;
-        margin: 0 auto;
-        padding-top: 5px;
-        padding-right: 5px;
-        box-sizing: border-box;
-
-        &--multiple {
-            float: left;
-        }
-
-        @include breakpoint(1) {
-            width: 100%;
-        }
+      width: 100%;
     }
+
+    .project-image--multiple {
+      width: 50%;
+      float: left;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+  }
 }

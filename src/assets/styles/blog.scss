@@ -1,108 +1,37 @@
-.blog {
-  width: 66%;
+.blog__cover-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.blog__content {
   display: inline-block;
+  width: 66%;
+  box-sizing: border-box;
+  line-height: 2;
 
-  @include breakpoint(1) {
+  img {
     width: 100%;
   }
 
-  .blog__cover-image {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    margin-top: $spacing-two-thirds;
-  }
-
-  .blog__main {
-    padding: $spacing-two-thirds 0;
-
-    @include breakpoint(1) {
-      padding-bottom: 0;
-    }
-
-    .blog__date {
-      margin: 0;
-      color: $grey;
-      font-size: $text-small;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: $heading1;
-    }
-
-    h2 {
-      font-size: $heading2;
-    }
-
-    h3 {
-      font-size: $heading3;
-      margin-top: $spacing-full;
-    }
-
-    figure {
-      margin: 0;
-      width: 100%;
-
-      img {
-        width: 100%;
-      }
-
-      figcaption {
-        font-style: italic;
-        font-size: $text-small;
-      }
-    }
+  figcaption {
+    font-style: italic;
   }
 }
 
-aside {
-  width: 30%;
-  float: right;
+.blog__aside {
   display: inline-block;
-  margin-top: $spacing-two-thirds;
+  width: 25%;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
 
-  @include breakpoint(1) {
-    width: 100%;
-    margin-top: 0;
-  }
+  .share-links__list {
+    list-style-type: none;
+    padding: 0;
 
-  .about {
-    background-color: $red;
-    color: $white;
-    padding: $spacing-one-third;
-
-    @include breakpoint(1) {
-      display: none;
-    }
-
-    h2 {
-      margin: 0;
-    }
-  }
-
-  .share-links {
-    ul, li {
-      padding: 0;
-      margin: 0;
-      list-style-type: none;
-    }
-
-    a {
-      display: block;
-      background-color: $red;
-      color: $white;
-      text-decoration: none;
-      width: 100%;
-      display: block;
-      margin: ($spacing-one-third / 2) 0;
-      padding: $spacing-one-third;
-      box-sizing: border-box;
-      text-align: center;
-    }
-
-    a:hover, a:focus {
-      background-color: $red-highlight;
+    .share-links__list-item {
+      margin-bottom: $spacing-half;
     }
   }
 }

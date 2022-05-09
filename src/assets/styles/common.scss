@@ -1,56 +1,132 @@
-html,
-body {
-    height: 100%;
-    margin: 0;
-}
-
-body {
-    background-color: $red;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 300;
+html {
+    background-color: $white;
+    font-family: 'Lato', sans-serif;
     font-size: $text;
-
-    header a, .intro a {
-        color: $white;
-        text-decoration: none;
-    }
+    color: $black;
 }
 
-h1 {
-    font-size: $heading1;
-}
+body {
+    padding: 20px;
+    margin: 0;
 
-h2 {
-    font-size: $heading2;
-}
-
-a {
-    color: $red;
-
-    &:hover, &:visited {
-        color: $red-highlight;
+    &::before, &::after {
+        content: '';
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 20px;
+        background-color: $white;
+        z-index: 1000;
     }
 
-    &:focus {
-        outline: 0;
-        background-color: $black;
-        color: $white;
+    &::before {
+        top: 0;
+        left: 0;
+    }
+
+    &::after {
+        bottom: 0;
+        left: 0;
     }
 }
 
 .wrapper {
-    background-color: $white;
-    overflow: visible;
-    min-height: calc(100% - 67px);
+    position: relative;
+    background-color: $light-pink;
+    padding: $spacing-two-thirds;
+    min-height: calc(100vh - 80px);
 }
 
-.max-width {
-    max-width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
+header {
+    position: relative;
+}
 
-    @include breakpoint(3) {
-        padding: 0 $spacing-half;
-        box-sizing: border-box;
+.logo {
+    text-decoration: none;
+    color: $burgundy;
+    font-family: 'Passion One', sans-serif;
+    font-size: $text-large;
+
+    span {
+        text-shadow: -2px 2px $black;
+
+        &:last-child {
+           position: relative;
+           top: 5px;
+        }
+    }
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    a {
+        margin-right: $spacing-one-third;
+        text-transform: uppercase;
+        font-size: $text-small;
+    }
+}
+
+main {
+    padding-top: $spacing-full;
+    margin-left: 60px;
+    padding-bottom: 80px;
+    clear: both; // clearfix for any floated content
+    overflow: hidden; // clearfix for any floated content
+
+    @include breakpoint(2) {
+        margin-left: $spacing-full * 2;
+    }
+}
+
+h1, .fake-heading {
+    font-family: 'Passion One', sans-serif;
+    font-weight: 300;
+    font-size: $text-xlarge;
+    color: $burgundy;
+    margin: 0;
+    line-height: 1;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: $black;
+
+    &:hover {
+        background-color: $hover;
+        box-shadow: 0px 0px 0px 5px $hover;
+    }
+
+    &:focus {
+        background-color: $hover;
+        box-shadow: 0px 0px 0px 5px $hover;
+        border-bottom: 2px solid $black;
+        outline: 0;
+        text-decoration: none;
+    }
+}
+
+footer {
+    text-align: center;
+    font-size: $text-small;
+    margin-top: $spacing-two-thirds;
+
+    @include breakpoint(2) {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        text-align: right;
+
+    }
+
+    a, p {
+        margin: 0;
     }
 }

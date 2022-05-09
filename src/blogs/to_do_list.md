@@ -9,8 +9,6 @@ tags:
 published_date: 2019-08-10
 ---
 
-# {{ name }}
-
 This August, I deleted 80% of my to-do list.
 
 When I first discovered to-do list apps, they seemed like the perfect way to stay organised all the time. I started using them as a way of jotting down things I needed to do when I got home from work. This worked pretty well, until I started thinking of things which I knew I couldn’t complete in one evening. _Oh well, no problem there, I’ll just schedule them in for the weekend… or the weekend after that… or perhaps in a couple of months…_
@@ -22,7 +20,8 @@ There were two main problems:
 1. My to-do list was too large. It was difficult to prioritise and looking at it made me demotivated. I constantly felt ashamed that I wasn't achieving enough. I would feel guilty going out with friends or wasting as little as 5 minutes having a chat with a colleague, when I could have spent that time ticking one more thing off my list.
 2. Having such a comprehensive to-do list meant I wasn’t encouraged to properly look and engage with the world around me. Instead, I relied on my phone to tell me what to do.
 
-## So, what have I done?
+## So, what have I done?
+
 On the 1st August, I took some steps to try and reduce my reliance on my to-do list (and my phone in general). I’m trialling these for the rest of the month to see how it goes, but I can already say that I’ve seen a huge improvement over just 1 week.
 
 ### Clear out your to-do list

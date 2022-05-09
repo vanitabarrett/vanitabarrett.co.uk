@@ -1,91 +1,54 @@
-.intro {
-    background-color: $red;
-    color: $white;
-    padding: $spacing-one-third $spacing-two-thirds;
-    box-sizing: border-box;
+.homepage-intro {
+  h1, .fake-heading {
+    font-size: $text-large;
+    width: 100%;
 
-    p {
-        padding: 0;
-        line-height: $spacing-full + ($spacing-one-third / 2);
-        font-size: 25px;
+    @include breakpoint(3) {
+      font-size: $text-xlarge;
+      width: 75%;
     }
 
-    a:hover {
-        border-bottom: 2px solid $white;
+    em {
+      color: $dark-burgundy;
+      font-style: normal;
+    }
+  }
+
+  p {
+    width: 100%;
+    font-size: $text-medium;
+
+    @include breakpoint(1) {
+      width: 80%;
     }
 
-    .intro-em {
-        font-size: $emphasis;
-        font-weight: 600;
-    }
-}
-
-.projects {
-    img {
-        width: 40%;
-
-        @include breakpoint(1) {
-            width: 100%;
-        }
+    @include breakpoint(3) {
+      width: 50%;
     }
 
-    .projects__list {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-
-        .projects__item {
-            margin: $spacing-two-thirds 0;
-            padding: $spacing-one-third 0 $spacing-two-thirds 0;
-            border-bottom: 1px solid $lightgrey;
-
-            &:first-child {
-                margin-top: 0;
-                padding-top: 0;
-            }
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            h2, p {
-                margin: 0;
-                margin-bottom: $spacing-one-third / 2;
-            }
-
-            h2 {
-                display: inline-block;
-                font-size: 20px;
-
-                a {
-                    color: $red;
-                    text-decoration: none;
-
-                    &:hover {
-                        border-bottom: 1px solid $red;
-                    }
-
-                    &:focus {
-                        color: $white;
-                    }
-                }
-            }
-
-            .projects__beta {
-                display: inline-block;
-                text-transform: uppercase;
-                font-size: $text-x-small;
-                font-weight: bold;
-                color: $white;
-                background-color: $black;
-                padding: 5px;
-                vertical-align: top;
-                margin-left: 5px;
-            }
-
-            .projects__item__job {
-                color: $grey;
-            }
-        }
+    a {
+      font-weight: bold;
     }
+  }
+
+  &__socials {
+    a {
+      text-decoration: none;
+      display: inline-block;
+      margin-right: $spacing-one-third;
+
+      svg {
+        width: 35px;
+        height: 35px;
+      }
+
+      &:hover, &:focus {
+        fill: $burgundy;
+        background-color: transparent;
+        outline: 0;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+  }
 }

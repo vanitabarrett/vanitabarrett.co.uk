@@ -1,104 +1,20 @@
 .blogs {
+  .blogs__list {
+    list-style-type: none;
+    padding: 0;
+    margin: $spacing-full auto;
+
+    .blogs__item__text {
+      margin: $spacing-full * 2 0;
+      width: 80%;
+    }
+
     .blogs__item {
-        display: block;
-        margin: $spacing-full 0 0 0;
+      display: inline-block;
 
-        h2 {
-            margin-top: $spacing-one-third / 2;
-            margin-bottom: 0;
-        }
-    }
-
-    .blogs__date {
-        font-size: $text-small;
+      h2 {
         margin: 0;
+      }
     }
-}
-
-.instagram {
-    margin-top: $spacing-full * 1.5;
-    border-top: 1px solid $lightgrey;
-    padding-top: $spacing-one-third;
-    margin-bottom: $spacing-two-thirds;
-
-    .instagram__user {
-        margin-left: $spacing-full;
-        margin-bottom: $spacing-two-thirds;
-
-        @include breakpoint(1) {
-            margin: 0;
-            margin-bottom: $spacing-two-thirds;
-        }
-    }
-
-    .instagram__posts {
-        text-align: center;
-    }
-
-    .instagram__username {
-        font-weight: bold;
-    }
-
-    .instagram__follow {
-        background-color: $red;
-        color: $white;
-        display: inline-block;
-        padding: 10px;
-        font-size: $text-small;
-        text-decoration: none;
-
-        &:hover, a:focus {
-            background-color: $red-highlight;
-        }
-    }
-
-    .instagram__pp {
-        border-radius: 50%;
-        width: 80px;
-        vertical-align: top;
-    }
-
-    .instagram__user-details {
-        display: inline-block;
-        margin-left: $spacing-one-third;
-        margin-top: $spacing-one-third / 2;
-
-        p {
-            margin: 0;
-            padding: 0;
-        }
-
-        .instagram__bio {
-            margin-bottom: $spacing-one-third;
-        }
-    }
-
-    .instagram__post {
-        display: inline-block;
-        text-decoration: none;
-        margin: 0 $spacing-one-third 0 0;
-
-        @include breakpoint(1) {
-            margin: 0 $spacing-one-third ($spacing-full / 2) 0;
-        }
-    }
-
-    .instagram__metadata {
-        font-size: $text-small;
-        text-align: right;
-
-        span {
-            margin-right: $spacing-one-third / 2;
-        }
-    }
-
-    .instagram__image {
-        width: 200px;
-        height: 200px;
-
-        @include breakpoint(1) {
-            width: 100px;
-            height: 100px;
-        }
-    }
+  }
 }
