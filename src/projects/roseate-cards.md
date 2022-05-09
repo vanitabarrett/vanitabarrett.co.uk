@@ -32,10 +32,6 @@ start_date: 2020-08-01
 end_date: 2021-08-01
 ---
 
-Uses the following technologies:
-
-- Next.js
-
 # Project: {{ name }}
 
 <strong>{{ role }}</strong>
