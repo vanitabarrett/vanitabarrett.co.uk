@@ -1,3 +1,5 @@
+const { DateTime } = require("luxon");
+
 module.exports = function (config) {
   config.addWatchTarget("./src/assets/styles/*.scss");
 
@@ -17,6 +19,10 @@ module.exports = function (config) {
   config.addFilter('sortByPublishedDate', values => {
     return values.sort((a, b) => new Date(b.data.published_date) - new Date(a.data.published_date))
   })
+
+  config.addFilter("postDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
+  });
 
   return {
     dir: {

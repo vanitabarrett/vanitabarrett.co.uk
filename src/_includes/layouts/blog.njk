@@ -45,7 +45,7 @@
           <img src="/assets/blog-images/{{ id }}.png" class="blog__cover-image" alt="">
 
           <div class="blog">
-            <p class="blog__date">Published {{ published_date }}</p>
+            <p class="blog__date">Published {{ published_date | postDate }}</p>
             <h1>{{ name }}</h1>
 
             <div class="blog__content">
