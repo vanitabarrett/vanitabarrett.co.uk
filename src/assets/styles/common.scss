@@ -75,6 +75,8 @@ main {
     padding-top: $spacing-full;
     margin-left: 60px;
     padding-bottom: 80px;
+    clear: both; // clearfix for any floated content
+    overflow: hidden; // clearfix for any floated content
 
     @include breakpoint(2) {
         margin-left: $spacing-full * 2;

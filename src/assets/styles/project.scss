@@ -27,5 +27,16 @@
 
   .project-images {
     text-align: center;
+
+    .project-image {
+      width: 100%;
+    }
+
+    .project-image--multiple {
+      width: 50%;
+      float: left;
+      padding: 5px;
+      box-sizing: border-box;
+    }
   }
 }
