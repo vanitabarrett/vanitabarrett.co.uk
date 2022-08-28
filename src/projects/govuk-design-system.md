@@ -41,7 +41,7 @@ start_date: 2020-07-06
 
 Working on the GOV.UK Design System, which is a library of components, styles and patterns used by the UK Government Website (GOV.UK), services across government and local councils. My role as a Senior Frontend Developer and Technical Lead is varied. Some day-to-day tasks include: investigating any bugs reported to us; researching and investigating accessibility issues and solutions; developing new components and releasing new versions of GOV.UK Frontend via npm; working with designers and content to update documentation; reporting bugs to third parties (for example: screenreader software; browsers).
 
-<a href="design-system.service.gov.uk">design-system.service.gov.uk</a>
+<a href="https://design-system.service.gov.uk">design-system.service.gov.uk</a>
 
 <ul class="project__skill-list" aria-label="Uses the following technologies">
   {% for skill in skills %}
