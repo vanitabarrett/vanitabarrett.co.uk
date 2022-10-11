@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Vanita Barrett website",
   "dependencies": {
-    "node-sass": "6.0.0"
+    "node-sass": "7.0.3"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
