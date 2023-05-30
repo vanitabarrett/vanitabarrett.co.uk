@@ -22,8 +22,8 @@ skills:
     text: React Testing Library
 tags:
   - projects
-  - ongoing_projects
 start_date: 2022-10-10
+end_date: 2023-05-19
 ---
 
 # Project: {{ name }}
