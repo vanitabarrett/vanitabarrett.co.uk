@@ -27,7 +27,7 @@ skills:
     id: reactTestingLibrary
     text: React Testing Library
   webdriverIO:
-    id: webdriverIO
+    id: webdriverio
     text: Webdriver I/O
 tags:
   - projects
