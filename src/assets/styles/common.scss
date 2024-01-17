@@ -37,6 +37,38 @@ body {
     min-height: calc(100vh - 80px);
 }
 
+.cookieBanner {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: $burgundy;
+    width: 100%;
+    left: 0;
+    padding: 5px 10px;
+    text-align: center;
+    color: $white;
+    font-size: 14px;
+
+    button {
+        font-family: 'Lato', sans-serif;
+        border: 0;
+        outline: 0;
+        background-color: white;
+        padding: 5px;
+        margin: 0 5px;
+        cursor: pointer;
+        border: 2px solid transparent;
+
+        &:hover {
+            background-color: $hover;
+        }
+
+        &:focus {
+            border: 2px solid black;
+        }
+    }
+}
+
 header {
     position: relative;
 }
