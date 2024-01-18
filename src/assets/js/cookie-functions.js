@@ -44,8 +44,30 @@ function hideCookieBanner() {
   if (banner) {
     banner.remove()
   }
+
+  const wrapper = document.getElementById('js-wrapper')
+
+  if (wrapper) {
+    wrapper.classList.remove('wrapper--cookie')
+  }
+}
+
+function showCookieBanner() {
+  const banner = document.getElementById('js-cookieBanner')
+
+  if (banner) {
+    banner.removeAttribute('hidden')
+  }
+
+  const wrapper = document.getElementById('js-wrapper')
+
+  if (wrapper) {
+    wrapper.classList.add('wrapper--cookie')
+  }
 }
 
 if (getGACookie() === 'true' || getGACookie() === 'false') {
   hideCookieBanner()
+} else {
+  showCookieBanner()
 }

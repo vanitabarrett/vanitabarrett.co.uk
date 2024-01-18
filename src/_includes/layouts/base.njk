@@ -29,11 +29,13 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <div id="js-cookieBanner" class="cookieBanner">
-          This site uses cookies for basic analytics tracking, to understand how the site is used and what people are finding interesting.
-         <button onClick="setGACookie(true)">Accept cookies</button>
-         <button onClick="setGACookie(false)">Reject cookies</button>
+    <div id="js-wrapper" class="wrapper">
+      <div id="js-cookieBanner" class="cookieBanner" hidden>
+        This site uses cookies for basic analytics tracking, to understand how the site is used and what people are finding interesting.
+        <div class="buttonWrapper">
+          <button onClick="setGACookie(true)">Accept cookies</button>
+          <button onClick="setGACookie(false)">Reject cookies</button>
+        </div>
       </div>
 
       <header>
@@ -52,6 +54,7 @@
       </main>
 
       <footer>
+        <a href="/cookies">Cookie Preferences</a>
         <a class="email" href="mailto:contact@vanitabarrett.co.uk">contact@vanitabarrett.co.uk</a>
         <p>&copy; Vanita Barrett-Smith</p>
        </footer>

@@ -30,10 +30,12 @@
 
   <body>
     <div class="wrapper">
-      <div id="js-cookieBanner" class="cookieBanner">
-          This site uses cookies for basic analytics tracking, to understand how the site is used and what people are finding interesting.
-         <button onClick="setGACookie(true)">Accept cookies</button>
-         <button onClick="setGACookie(false)">Reject cookies</button>
+      <div id="js-cookieBanner" class="cookieBanner" hidden>
+        This site uses cookies for basic analytics tracking, to understand how the site is used and what people are finding interesting.
+        <div class="buttonWrapper">
+          <button onClick="setGACookie(true)">Accept cookies</button>
+          <button onClick="setGACookie(false)">Reject cookies</button>
+        </div>
       </div>
 
       <header>
