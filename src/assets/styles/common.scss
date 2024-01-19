@@ -170,6 +170,7 @@ a {
 }
 
 footer {
+    width: 100%;
     text-align: center;
     font-size: $text-small;
     margin-top: $spacing-two-thirds;
@@ -184,5 +185,7 @@ footer {
     a, p {
         display: block;
         margin: 0;
+        padding: 0;
+        line-height: 1.5;
     }
 }
