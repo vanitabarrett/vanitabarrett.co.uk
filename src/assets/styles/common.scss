@@ -182,6 +182,11 @@ footer {
 
     }
 
+    div {
+        width: min-content;
+        margin: 0 auto;
+    }
+
     a, p {
         display: block;
         margin: 0;
