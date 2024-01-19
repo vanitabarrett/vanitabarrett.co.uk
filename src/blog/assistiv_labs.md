@@ -76,7 +76,7 @@ It’s important to test changes with screen magnifiers to ensure that key infor
 </figure>
 
 ## Putting it into practice
-Accessibility is a collaborative effort, and at Which? the Accessibility Guild especially has been doing a lot of work in recent months to integrate accessibility and accessibility testing into our day-to-day processes. This blog post was originally a lunch & learn session I ran when Assistiv Labs was first introduced. We’re still in the early stages of our journey and there’s a lot of work to do, but we’re seeing more people considering and talking about accessibility work, as well as getting involved in conversations about what we can do to improve.
+Accessibility is a collaborative effort, and at Which? the Accessibility Guild especially has been doing a lot of work to raise awareness of accessibility within our Product & Tech community and get the conversation going. This blog post was originally a lunch & learn session I ran when Assistiv Labs was first introduced at Which? last year. We’re still in the early stages of our journey and there’s a lot of work to do before it becomes a natural part of our day-to-day development, but we’re seeing positive signs, with more people considering accessibility in their work and getting involved in conversations about what we can do to improve.
 
 ## References
 
