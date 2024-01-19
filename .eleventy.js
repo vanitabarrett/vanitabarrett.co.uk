@@ -5,6 +5,7 @@ module.exports = function (config) {
 
   // All passthroughs
   config.addPassthroughCopy('.htaccess');
+  config.addPassthroughCopy('src/assets/js/*');
   config.addPassthroughCopy('src/assets/project-images/*');
   config.addPassthroughCopy('src/assets/blog-images/*');
   config.addPassthroughCopy('src/assets/skill-icons/*');

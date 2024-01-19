@@ -35,6 +35,59 @@ body {
     background-color: $light-pink;
     padding: $spacing-two-thirds;
     min-height: calc(100vh - 80px);
+
+    &--cookie {
+        padding-top: 75px;
+
+        @include breakpoint(2) {
+            padding-top: $spacing-two-thirds;
+        }
+    }
+}
+
+.cookieBanner {
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+    background-color: $burgundy;
+    width: 100%;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    color: $white;
+    font-size: 14px;
+
+    &[hidden] {
+        display: none;
+    }
+
+    .buttonWrapper {
+        margin-top: 5px;
+
+        @include breakpoint(2) {
+            display: inline-block;
+            margin-top: 0;
+        }
+    }
+    button {
+        font-family: 'Lato', sans-serif;
+        border: 0;
+        outline: 0;
+        background-color: white;
+        padding: 5px;
+        margin: 0 5px;
+        cursor: pointer;
+        border: 2px solid transparent;
+
+        &:hover {
+            background-color: $hover;
+        }
+
+        &:focus {
+            border: 2px solid black;
+        }
+    }
 }
 
 header {

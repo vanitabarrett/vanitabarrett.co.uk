@@ -1,0 +1,19 @@
+.cookieButton {
+  color: $white;
+  border: 0;
+  background-color: $burgundy;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+
+  &:hover {
+    background-color: $hover;
+    color: $black;
+  }
+
+  &:focus {
+    outline: 0;
+    border: 2px solid black;
+  }
+}

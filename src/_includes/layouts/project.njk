@@ -30,6 +30,14 @@
 
   <body>
     <div class="wrapper">
+      <div id="js-cookieBanner" class="cookieBanner" hidden>
+        This site uses cookies for basic analytics tracking, to understand how the site is used and what people are finding interesting.
+        <div class="buttonWrapper">
+          <button onClick="setGACookie(true)">Accept cookies</button>
+          <button onClick="setGACookie(false)">Reject cookies</button>
+        </div>
+      </div>
+
       <header>
         <a href="/" aria-label="Link to homepage" class="logo">
           <span>V</span><span>B</span>
@@ -50,5 +58,7 @@
         <p>&copy; Vanita Barrett-Smith</p>
       </footer>
     </div>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-JXQ40Y6X59"></script>
+      <script src="/assets/js/cookie-functions.js"></script>
   </body>
 </html>
